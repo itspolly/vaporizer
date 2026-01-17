@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "97b8e307-1cf7-4e24-80fb-13cf6e9526ee")
+	(paper "A4")
+	(title_block
+		(title "Power Management - USB, Charger, Protection, Fuel Gauge")
+	)
+	(lib_symbols)
+)
