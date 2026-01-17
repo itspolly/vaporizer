@@ -3292,7 +3292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00924881-9182-4b24-b53d-faaea831fce9")
-		(property "Reference" "C_PROT"
+		(property "Reference" "C_PROT1"
 			(at 38.1 123.1899 0)
 			(effects
 				(font
@@ -3310,7 +3310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.2552 128.27 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "C_PROT")
+					(reference "C_PROT1")
 					(unit 1)
 				)
 			)
@@ -3362,7 +3362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "016aa942-fc8b-4893-91db-ecc6d001b982")
-		(property "Reference" "C_SYS"
+		(property "Reference" "C_SYS1"
 			(at 95.25 49.5299 0)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.4052 54.61 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "C_SYS")
+					(reference "C_SYS1")
 					(unit 1)
 				)
 			)
@@ -3432,7 +3432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073f77ef-8ace-4cee-ba11-6c1284aaf637")
-		(property "Reference" "R_SENSE_FG"
+		(property "Reference" "R_SENSE_FG1"
 			(at 147.32 143.5099 0)
 			(effects
 				(font
@@ -3450,7 +3450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 143.002 144.78 90)
 			(effects
 				(font
@@ -3486,7 +3486,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "R_SENSE_FG")
+					(reference "R_SENSE_FG1")
 					(unit 1)
 				)
 			)
@@ -3520,7 +3520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 37.7952 38.1 0)
 			(effects
 				(font
@@ -3572,7 +3572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17959b05-eb14-4436-bd15-58da36e1165a")
-		(property "Reference" "R_REV"
+		(property "Reference" "R_REV1"
 			(at 101.6 116.8399 0)
 			(effects
 				(font
@@ -3590,7 +3590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 97.282 118.11 90)
 			(effects
 				(font
@@ -3626,7 +3626,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "R_REV")
+					(reference "R_REV1")
 					(unit 1)
 				)
 			)
@@ -3642,7 +3642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "190bda8e-e7d6-4044-9954-48b3c54c6b9c")
-		(property "Reference" "C_REGN"
+		(property "Reference" "C_REGN1"
 			(at 93.98 62.2299 0)
 			(effects
 				(font
@@ -3660,7 +3660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.1352 67.31 0)
 			(effects
 				(font
@@ -3696,7 +3696,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "C_REGN")
+					(reference "C_REGN1")
 					(unit 1)
 				)
 			)
@@ -3778,7 +3778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "214ef669-dd6e-47b7-901b-259bcbf8d391")
-		(property "Reference" "R_QON"
+		(property "Reference" "R_QON1"
 			(at 101.6 80.0099 0)
 			(effects
 				(font
@@ -3796,7 +3796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 97.282 81.28 90)
 			(effects
 				(font
@@ -3832,7 +3832,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "R_QON")
+					(reference "R_QON1")
 					(unit 1)
 				)
 			)
@@ -3932,7 +3932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.122 86.36 90)
 			(effects
 				(font
@@ -4002,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.722 114.3 90)
 			(effects
 				(font
@@ -4154,7 +4154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
 			(at 104.14 45.72 0)
 			(effects
 				(font
@@ -4206,7 +4206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59fe00a6-8e8f-41e3-a1e7-c07b1e924bc9")
-		(property "Reference" "C_PMID"
+		(property "Reference" "C_PMID1"
 			(at 41.91 44.4499 0)
 			(effects
 				(font
@@ -4224,7 +4224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 39.0652 49.53 0)
 			(effects
 				(font
@@ -4260,7 +4260,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "C_PMID")
+					(reference "C_PMID1")
 					(unit 1)
 				)
 			)
@@ -4360,7 +4360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.092 93.98 90)
 			(effects
 				(font
@@ -4496,7 +4496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.042 148.59 90)
 			(effects
 				(font
@@ -4746,7 +4746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8330da88-0911-487d-acc6-f8934af5936c")
-		(property "Reference" "C_BTST"
+		(property "Reference" "C_BTST1"
 			(at 93.98 36.8299 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.1352 41.91 0)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "C_BTST")
+					(reference "C_BTST1")
 					(unit 1)
 				)
 			)
@@ -4832,7 +4832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DSE0006A"
+		(property "Footprint" "BQ29705DSET:SON50P150X150X80-6N"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -5128,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024H"
+		(property "Footprint" "Package_DFN_QFN:Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
 			(at 63.5 68.58 0)
 			(effects
 				(font
@@ -5268,7 +5268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -5338,7 +5338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.582 135.89 90)
 			(effects
 				(font
@@ -5408,7 +5408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.242 53.34 90)
 			(effects
 				(font
@@ -5478,7 +5478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 73.66 0)
 			(effects
 				(font
@@ -5548,7 +5548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -5618,7 +5618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 94.742 147.32 90)
 			(effects
 				(font
@@ -5670,7 +5670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f864d1f5-3f87-4de6-8423-5101775f784c")
-		(property "Reference" "Q3"
+		(property "Reference" "Q_REV1"
 			(at 118.11 113.0299 0)
 			(effects
 				(font
@@ -5745,7 +5745,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/a4f15ca0-ce5b-4b53-a9db-308ad3d3fa71"
-					(reference "Q3")
+					(reference "Q_REV1")
 					(unit 1)
 				)
 			)

@@ -1209,7 +1209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.822 69.85 90)
 			(effects
 				(font
@@ -1279,7 +1279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_SM12B-GHS-TB_1x12-1MP_P1.25mm_Horizontal"
 			(at 132.08 39.37 0)
 			(effects
 				(font
@@ -1361,7 +1361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aee04e0-6541-4237-9cb1-6bfad5f9f0c7")
-		(property "Reference" "C_DISP"
+		(property "Reference" "C_DISP1"
 			(at 109.22 29.2099 0)
 			(effects
 				(font
@@ -1379,7 +1379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.3752 34.29 0)
 			(effects
 				(font
@@ -1415,7 +1415,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/ca908c34-ad55-48a6-bd0d-9c55747ba4f1"
-					(reference "C_DISP")
+					(reference "C_DISP1")
 					(unit 1)
 				)
 			)
@@ -1581,7 +1581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 133.35 68.58 0)
 			(effects
 				(font

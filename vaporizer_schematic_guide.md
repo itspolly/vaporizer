@@ -1219,7 +1219,7 @@ U3:AIN (pin A1) ──── NC (auxiliary input, unused)
 | Designator | Symbol | Value | Footprint | Description |
 |------------|--------|-------|-----------|-------------|
 | U4 | TPS61088 | TPS61088RHLR | Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm | Boost converter IC |
-| U5 | MCP4561 | MCP4561-104E/MS | Package_SO:SOIC-8_3.9x4.9mm_P1.27mm | 100kΩ digital potentiometer |
+| U11 | MCP4561 | MCP4561-104E/MS | Package_SO:SOIC-8_3.9x4.9mm_P1.27mm | 100kΩ digital potentiometer |
 | L2 | L | 1µH | Inductor_SMD:L_Coilcraft_XAL7070 | Boost inductor (25A sat, Coilcraft XAL7070-102MEC, LCSC C6609502) |
 | R4 | R | 100k | Resistor_SMD:R_0402_1005Metric | FB top resistor |
 | C_BOUT1 | C | 22µF | Capacitor_SMD:C_0805_2012Metric | Output cap 1 |
@@ -1344,17 +1344,17 @@ U4:PGND (pin 21) ──── GND
 Pins 11 and 12 are NC (no connection) — leave unconnected.
 
 #### Step 10: Place and Wire MCP4561 Digital Potentiometer
-1. Place U5 (MCP4561) near U4
+1. Place U11 (MCP4561) near U4
 2. Wire I2C connections:
 
 ```
-[I2C1_SDA] ──── U5:SDA (pin 3)
-[I2C1_SCL] ──── U5:SCL (pin 2)
+[I2C1_SDA] ──── U11:SDA (pin 3)
+[I2C1_SCL] ──── U11:SCL (pin 2)
 ```
 
 3. Wire address pin:
 ```
-U5:HVC/A0 (pin 1) ──── GND   (I2C address = 0x2C)
+U11:HVC/A0 (pin 1) ──── GND   (I2C address = 0x2C)
 ```
 
 #### Step 11: Wire Adjustable Feedback Network with R_SAFE Failsafe
@@ -1367,20 +1367,20 @@ U5:HVC/A0 (pin 1) ──── GND   (I2C address = 0x2C)
 4. Place R_SAFE (22k) near R4
 5. Connect R_SAFE terminal 1 to FB node (R4:2 / U4:FB junction)
 6. Connect R_SAFE terminal 2 to GND
-7. Connect U5:P0W (pin 6, wiper) to FB node
-8. Connect U5:P0A (pin 5) to GND
-9. Connect U5:P0B (pin 7) to GND
+7. Connect U11:P0W (pin 6, wiper) to FB node
+8. Connect U11:P0A (pin 5) to GND
+9. Connect U11:P0B (pin 7) to GND
 
 **Resulting circuit:**
 ```
 [V_BOOST] ──── R4 (100k) ──┬── U4:FB (pin 17)
                            │
-                           ├── U5:P0W (pin 6, wiper)
+                           ├── U11:P0W (pin 6, wiper)
                            │
                            └── R_SAFE (22k) ──── GND
 
-U5:P0A (pin 5) ──── GND
-U5:P0B (pin 7) ──── GND
+U11:P0A (pin 5) ──── GND
+U11:P0B (pin 7) ──── GND
 ```
 
 **Explanation:** The digital pot (0-100kΩ) sets the bottom resistor (R_B) in the feedback divider. R_SAFE provides **overvoltage protection** if MCP4561 wiper fails open:
@@ -1395,8 +1395,8 @@ Without R_SAFE, wiper failure → infinite R_B → uncontrolled voltage rise →
 
 #### Step 12: Wire MCP4561 Power
 ```
-[VSYS] ──── U5:VDD (pin 8)
-            U5:VSS (pin 4) ──── GND
+[VSYS] ──── U11:VDD (pin 8)
+            U11:VSS (pin 4) ──── GND
 ```
 
 **⚠️ MCP4561 Non-Volatile Memory Wear (Firmware Guidance):**

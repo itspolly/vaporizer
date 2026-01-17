@@ -1965,7 +1965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.422 92.71 90)
 			(effects
 				(font
@@ -2169,7 +2169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRL5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 78.74 102.87 0)
 			(effects
 				(font
@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DO-214AASMB_J-BEND_LTF"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.042 91.44 90)
 			(effects
 				(font

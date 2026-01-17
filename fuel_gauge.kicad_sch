@@ -597,7 +597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.6452 114.3 0)
 			(effects
 				(font
@@ -665,7 +665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-100129A_W91N1+1_MXM"
+		(property "Footprint" "MAX17055EWL+T:BGA9N40P3X3_140X149X69N"
 			(at 114.3 88.9 0)
 			(effects
 				(font

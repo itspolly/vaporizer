@@ -2660,7 +2660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -2750,7 +2750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.0752 64.77 0)
 			(effects
 				(font
@@ -2868,7 +2868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "189c02b6-7fe4-4300-87b0-d6509a21d01c")
-		(property "Reference" "C_CV"
+		(property "Reference" "C_CV1"
 			(at 113.03 63.4999 0)
 			(effects
 				(font
@@ -2886,7 +2886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.1852 68.58 0)
 			(effects
 				(font
@@ -2922,7 +2922,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/b707efaf-e934-4479-b5a7-a53392b0d81d"
-					(reference "C_CV")
+					(reference "C_CV1")
 					(unit 1)
 				)
 			)
@@ -3136,7 +3136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47376e12-0424-4b20-be7f-2e2ed8a44c0f")
-		(property "Reference" "C_INV"
+		(property "Reference" "C_INV1"
 			(at 186.69 120.6499 0)
 			(effects
 				(font
@@ -3154,7 +3154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 183.8452 125.73 0)
 			(effects
 				(font
@@ -3190,7 +3190,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/b707efaf-e934-4479-b5a7-a53392b0d81d"
-					(reference "C_INV")
+					(reference "C_INV1")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 75.8952 36.83 0)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 171.45 49.53 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7babb4f9-8d12-4b60-ad9b-124209e88ac0")
-		(property "Reference" "R_DEBOUNCE"
+		(property "Reference" "R_DEBOUNCE1"
 			(at 151.13 133.3499 0)
 			(effects
 				(font
@@ -3438,7 +3438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.812 134.62 90)
 			(effects
 				(font
@@ -3474,7 +3474,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/b707efaf-e934-4479-b5a7-a53392b0d81d"
-					(reference "R_DEBOUNCE")
+					(reference "R_DEBOUNCE1")
 					(unit 1)
 				)
 			)
@@ -3508,7 +3508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 73.152 24.13 90)
 			(effects
 				(font
@@ -3692,7 +3692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99beff8f-1afa-4e44-8c07-e5802751ab3e")
-		(property "Reference" "R_ALERT"
+		(property "Reference" "R_ALERT1"
 			(at 208.28 81.2799 0)
 			(effects
 				(font
@@ -3710,7 +3710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 203.962 82.55 90)
 			(effects
 				(font
@@ -3746,7 +3746,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/b707efaf-e934-4479-b5a7-a53392b0d81d"
-					(reference "R_ALERT")
+					(reference "R_ALERT1")
 					(unit 1)
 				)
 			)
@@ -3780,7 +3780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.522 49.53 90)
 			(effects
 				(font
@@ -3898,7 +3898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c69ae72b-7951-48fc-83f3-4f4a96289e1e")
-		(property "Reference" "C_SCHMITT"
+		(property "Reference" "C_SCHMITT1"
 			(at 176.53 35.5599 0)
 			(effects
 				(font
@@ -3916,7 +3916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.6852 40.64 0)
 			(effects
 				(font
@@ -3952,7 +3952,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/b707efaf-e934-4479-b5a7-a53392b0d81d"
-					(reference "C_SCHMITT")
+					(reference "C_SCHMITT1")
 					(unit 1)
 				)
 			)
@@ -3986,7 +3986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.932 97.79 90)
 			(effects
 				(font
@@ -4054,7 +4054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 175.26 133.35 0)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT402-1_NXP"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -4221,7 +4221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dda691f7-8243-4919-8563-c55bf4e78ba8")
-		(property "Reference" "C_AND"
+		(property "Reference" "C_AND1"
 			(at 191.77 71.1199 0)
 			(effects
 				(font
@@ -4239,7 +4239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 188.9252 76.2 0)
 			(effects
 				(font
@@ -4275,7 +4275,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/b707efaf-e934-4479-b5a7-a53392b0d81d"
-					(reference "C_AND")
+					(reference "C_AND1")
 					(unit 1)
 				)
 			)
@@ -4291,7 +4291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6762c70-3ead-4798-89b8-e27c88168aee")
-		(property "Reference" "C_DEBOUNCE"
+		(property "Reference" "C_DEBOUNCE1"
 			(at 158.75 140.9699 0)
 			(effects
 				(font
@@ -4309,7 +4309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 155.9052 146.05 0)
 			(effects
 				(font
@@ -4345,7 +4345,7 @@
 		(instances
 			(project ""
 				(path "/96bcf3cc-a3b8-4386-8709-07acaf7b6253/b707efaf-e934-4479-b5a7-a53392b0d81d"
-					(reference "C_DEBOUNCE")
+					(reference "C_DEBOUNCE1")
 					(unit 1)
 				)
 			)
