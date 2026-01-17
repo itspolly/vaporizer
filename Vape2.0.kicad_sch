@@ -225,6 +225,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 119.38) (xy 236.3866 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194e0b4d-91cf-4995-ade7-5601b1677dfd")
+	)
+	(wire
+		(pts
 			(xy 287.7432 91.6049) (xy 277.3815 91.6049)
 		)
 		(stroke
@@ -1065,6 +1075,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.3866 119.38) (xy 236.3866 159.004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f375a99-37c2-4bc8-b914-e9b926e78dd2")
+	)
+	(wire
+		(pts
 			(xy 261.5947 83.82) (xy 250.19 83.82)
 		)
 		(stroke
@@ -1372,6 +1392,16 @@
 			(type default)
 		)
 		(uuid "c19f02f9-ded5-4538-ace9-4a444c0fb38f")
+	)
+	(wire
+		(pts
+			(xy 236.3866 159.004) (xy 254 159.004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33d628e-1bb7-4e05-b3eb-ebe6817eaf0a")
 	)
 	(wire
 		(pts
@@ -2959,6 +2989,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "V_SENSE" output
+			(at 236.22 119.38 0)
+			(uuid "496862ad-137f-4eb9-a52c-bbe0cc6ccf60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
