@@ -309,3 +309,15 @@
   3. Protection FET mid-node - Net-(Q1-D) is high-current and should be labeled PROT_MID
 
   The auto-generated internal IC nodes (BTST, COMP, SS, etc.) can stay as-is or be labeled for clarity - they're all Signal class and don't need special routing.
+
+---
+
+  HighCurrent (13 nets):
+  VBAT_RAW, VBAT_PROT, BAT_NEG, GND_SENSE, PROT_MID,
+  VSYS, V_BOOST, OPAMP_IN+, SHUNT_LO, COIL+,
+  /coil_driver/BOOST_SW (rename to COIL-), GND
+
+  Power (6 nets):
+  VBUS, VCC_3V3, PMID, CHG_SW, /boost_converter/BOOST_SW, BOOST_VCC
+
+  Action needed: Rename /coil_driver/BOOST_SW to COIL- for clarity
