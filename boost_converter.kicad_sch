@@ -2017,6 +2017,86 @@
 		)
 		(uuid "fb98b3af-430b-41f3-9548-951991f57d4e")
 	)
+	(label "DPOT_WIPER"
+		(at 176.53 86.505 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26b4f8a0-f78c-48c6-8b68-b63406fcc2bf")
+	)
+	(label "BOOST_SS"
+		(at 32.1859 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4435c39a-65fa-47bc-bbb3-3d5497256228")
+	)
+	(label "BOOST_BOOT"
+		(at 71.9385 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "509a5560-f572-4986-a30e-c9ebc3b0ebef")
+	)
+	(label "BOOST_COMP"
+		(at 23.8381 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "586d54db-7a80-47a3-ba8a-ddf1f8ffcc6d")
+	)
+	(label "BOOST_SW"
+		(at 76.2 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f8f4dce-58cf-440a-9682-8a3476c378ec")
+	)
+	(label "BOOST_ILIM"
+		(at 31.6034 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f7dba2-3436-4ce5-a50c-5c3845977153")
+	)
+	(label "BOOST_VCC"
+		(at 29.8806 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e649b55b-c350-473c-ae17-a67bbe2ccde9")
+	)
+	(label "BOOST_COMP"
+		(at 31.4854 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edc1fb1f-7291-49a2-b628-22553961d43a")
+	)
 	(hierarchical_label "V_BOOST"
 		(shape output)
 		(at 157.48 105.41 0)

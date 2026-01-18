@@ -3421,6 +3421,166 @@
 		)
 		(uuid "ff2fe4f6-540a-4c6b-b7e3-17f9a97cebdc")
 	)
+	(label "NTC_TS"
+		(at 115.5591 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "088a85db-44d5-4e82-a542-51db8e5b15d3")
+	)
+	(label "Q1_GATE"
+		(at 96.52 137.5556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aa90821-2f1c-4155-8184-6f994acf07d5")
+	)
+	(label "VBAT_RAW"
+		(at 156.21 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c9d61b3-74f3-4bc6-b601-7a724cfdad50")
+	)
+	(label "PROT_BAT"
+		(at 48.26 126.9171 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "100de4fa-5a76-4258-b909-1f3640d0944e")
+	)
+	(label "QREV_GATE"
+		(at 125.2554 110.8436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61f8695e-d083-44b1-8af7-f0ed0c3f8fa4")
+	)
+	(label "PROT_DOUT"
+		(at 82.7912 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66148619-a3c8-4fc3-b623-c6aa077073ee")
+	)
+	(label "PROT_V-"
+		(at 87.9166 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67aa498c-e147-49c1-b73b-617c21574dec")
+	)
+	(label "PROT_MID"
+		(at 106.8874 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b2905d7-804d-4d65-9778-a0ed82781ca3")
+	)
+	(label "PROT_COUT"
+		(at 82.8827 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cefce18-f396-4e80-aa61-8b141c2a4671")
+	)
+	(label "CHG_REGN"
+		(at 84.8064 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e382769-c64b-4b0d-8f9d-185df94dc1b4")
+	)
+	(label "CHG_SW"
+		(at 90.17 42.9563 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af668c9c-b833-469d-9f20-0d4854f8460e")
+	)
+	(label "CHG_QON"
+		(at 84.8613 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b20d9ab3-0638-4ab1-b9d9-2f7b7d145b4f")
+	)
+	(label "CHG_ILIM"
+		(at 41.3931 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d47bd269-6b43-4325-8a00-82742d7dcaab")
+	)
+	(label "PMID"
+		(at 41.0165 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de257951-4aac-4ba5-8ef2-edd443c7c4be")
+	)
+	(label "CHG_BTST"
+		(at 85.5022 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eff51727-fbc2-445f-83da-012c4b9b69ed")
+	)
+	(label "Q2_GATE"
+		(at 130.81 143.0906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f58e2206-169a-4bf5-9a44-f3215e94d636")
+	)
 	(hierarchical_label "CHG_PG"
 		(shape output)
 		(at 43.18 73.66 0)

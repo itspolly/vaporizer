@@ -2437,6 +2437,106 @@
 		)
 		(uuid "faef22a3-c5ad-40cc-a28e-aba2a95596d2")
 	)
+	(label "LOGIC_2Y"
+		(at 168.2796 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "090c7514-d5f0-4de0-a1e1-91d5d2eacf65")
+	)
+	(label "WDT_OUT"
+		(at 161.29 52.1198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c9805f1-32a7-4d22-a7f0-dad16020af11")
+	)
+	(label "AND_1Y"
+		(at 144.78 94.1423 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52e4eb74-d92b-4d05-a83e-8bd07378b39b")
+	)
+	(label "WDT_CONT"
+		(at 109.22 59.8732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bbc2b44-7033-4ad0-a288-d3bc9e80db26")
+	)
+	(label "BTN_FILT"
+		(at 160.02 136.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85d93e93-2f56-4636-a8c5-00b889ea1547")
+	)
+	(label "WDT_RST"
+		(at 77.039 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a888146f-ac7c-40e9-ac89-b297af7ab262")
+	)
+	(label "WDT_DISCH"
+		(at 109.22 53.7566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc08175-7bd6-49d0-a8d9-d2e00761f116")
+	)
+	(label "AND_3Y"
+		(at 202.9473 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dde8e6ad-d0a1-4239-b434-689057977384")
+	)
+	(label "AND_1B"
+		(at 187.96 115.3423 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7a4d89c-73fc-401f-9540-42d1a1eca684")
+	)
+	(label "WDT_OK"
+		(at 176.5987 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7ebf563-ad5f-4ca9-9499-ba762fe35032")
+	)
 	(hierarchical_label "VCC_3V3"
 		(shape input)
 		(at 114.3 45.72 0)

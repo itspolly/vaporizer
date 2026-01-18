@@ -2785,6 +2785,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.5518 144.78) (xy 86.36 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e8172c-cb46-4297-9e7e-b42e10390e30")
+	)
+	(wire
+		(pts
 			(xy 68.58 53.34) (xy 73.66 53.34)
 		)
 		(stroke
@@ -3072,6 +3082,16 @@
 			(type default)
 		)
 		(uuid "3eac8e2f-cfb7-491b-8009-118f8a159a45")
+	)
+	(wire
+		(pts
+			(xy 87.5518 147.9984) (xy 87.5518 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f09edec-b39a-42c2-a5b3-907f22aa2e8f")
 	)
 	(wire
 		(pts
@@ -3475,6 +3495,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.1936 147.9984) (xy 87.5518 147.9984)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de42c3dc-3fae-4695-815c-cd410d13506c")
+	)
+	(wire
+		(pts
 			(xy 43.9574 85.09) (xy 46.99 85.09)
 		)
 		(stroke
@@ -3592,6 +3622,96 @@
 			(type default)
 		)
 		(uuid "ff2e892b-35eb-46f6-8732-1a599e89ea46")
+	)
+	(label "SHUNT_LO"
+		(at 67.3104 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0664e88a-e367-4342-aa90-e672421a5e94")
+	)
+	(label "OC_THRESH+"
+		(at 114.3 75.305 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41df663a-012b-4d4b-9f53-8960d46c5bb2")
+	)
+	(label "COIL-"
+		(at 88.9 52.8305 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62c3c9b6-cc94-4e46-b1a3-34cd0d4d63ed")
+	)
+	(label "OPAMP_IN+"
+		(at 83.5102 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "796ea7f8-0358-4825-a4dd-c55b248073a7")
+	)
+	(label "DRIVER_OUT"
+		(at 104.5741 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8be64f90-0a4c-445f-8750-58d17e0bfcff")
+	)
+	(label "COMP_IN-"
+		(at 129.54 57.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaf473b5-1b6c-44f7-a69e-eb809e058d01")
+	)
+	(label "COIL+"
+		(at 85.894 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac8b7cf4-1277-416a-bb61-af2c5ea0fdaf")
+	)
+	(label "OPAMP_REF"
+		(at 87.5518 146.3209 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa4b6c86-fe47-4046-977b-f528d85f99db")
+	)
+	(label "Q4_GATE"
+		(at 37.2982 71.1811 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbed07c8-f491-42c8-92f5-265b0ff74ef3")
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
@@ -4552,7 +4672,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 144.78 0)
+		(at 86.1936 147.9984 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4561,7 +4681,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d8a8bdc-0b72-4d1e-9a7f-ce4e22067e34")
 		(property "Reference" "#PWR045"
-			(at 86.36 151.13 0)
+			(at 86.1936 154.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 149.86 0)
+			(at 86.1936 153.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 144.78 0)
+			(at 86.1936 147.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 144.78 0)
+			(at 86.1936 147.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 144.78 0)
+			(at 86.1936 147.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)

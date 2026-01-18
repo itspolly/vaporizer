@@ -1888,6 +1888,16 @@
 		)
 		(uuid "e4104b32-1571-4334-b670-2831e12f161b")
 	)
+	(label "ESP_BOOT"
+		(at 156.1625 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e70bbd8-7796-4402-8b9e-cf0e94e91553")
+	)
 	(hierarchical_label "WDT_PING"
 		(shape output)
 		(at 153.67 134.62 0)

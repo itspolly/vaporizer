@@ -1904,6 +1904,26 @@
 		)
 		(uuid "f91adb53-f687-49ed-a7e9-eb1d539089bf")
 	)
+	(label "USB_CC2"
+		(at 73.4802 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a837d63d-e06f-4cb6-b57b-64b4d21eb069")
+	)
+	(label "USB_CC1"
+		(at 74.0127 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd82cb56-da9c-4ed8-af55-6c33ab238381")
+	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 137.16 102.87 0)

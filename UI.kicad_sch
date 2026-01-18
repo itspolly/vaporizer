@@ -1038,6 +1038,16 @@
 		)
 		(uuid "65ea716e-165a-43bc-a007-a4211e58e4f6")
 	)
+	(label "FIRE_LED"
+		(at 114.2376 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d16d5d3a-8642-474a-92d1-526215984131")
+	)
 	(hierarchical_label "LCD_RST"
 		(shape input)
 		(at 127 41.91 0)
