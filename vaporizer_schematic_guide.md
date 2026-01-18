@@ -3263,7 +3263,7 @@ Configure net classes in **File → Schematic Setup → Net Classes**:
 |-----------|------------|-------------|
 | Power | 0.5mm | Medium-current power nets (VBUS, VCC_3V3) |
 | Signal | 0.25mm | Standard signal nets |
-| HighCurrent | — | See critical list below (do NOT use traces!) |
+| HighCurrent | 4.0mm | High-current nets (6A capable with 2oz copper) |
 
 **⚠️ CRITICAL: High-Current Path Routing**
 
@@ -3271,10 +3271,14 @@ Configure net classes in **File → Schematic Setup → Net Classes**:
 
 | Net Name | Max Current | Path Description |
 |----------|-------------|------------------|
+| VBAT_RAW | 6A | Raw battery input (J3:BAT+ to Q_REV) |
 | VBAT_PROT | 6A | Protected battery voltage (to BQ25896:BAT and FuelGauge:BATT) |
 | BAT_NEG | 6A | Battery negative return (from R_SENSE_FG to Battery-) |
+| GND_SENSE | 6A | Q2:Source in battery return path |
+| PROT_MID | 6A | Q1/Q2 common drain (protection FETs) |
 | VSYS | 6A | System rail from charger to boost/MCU/LDO |
 | V_BOOST | 6A | Boost converter output (7V) |
+| OPAMP_IN+ | 6A | Q3:Drain / shunt high side (coil current path) |
 | COIL+ | 6A | Positive coil connection to 510 connector |
 | COIL- | 6A | Negative coil connection (switched by Q4) |
 | GND | 6A+ | Power ground return path |
@@ -3284,13 +3288,50 @@ These nets can carry up to **6A continuous**.
 **A 1.0mm trace on 1oz copper can only handle ~3A with 10°C rise.** At 6A, this will overheat.
 
 **Required approach for high-current nets:**
-1. Use **polygon pours (copper zones)** instead of traces
-2. If traces are necessary, use **minimum 3-4mm width** or route on multiple layers with via stitching
-3. Use **2oz copper** on power layers (specify when ordering PCB)
-4. Add **via farms** (multiple vias in parallel) at layer transitions
-5. Match trace capacity to 14AWG wire equivalent (~2.08mm²)
+1. Use **4mm wide traces with 2oz copper** — this handles 6A+ with acceptable temperature rise
+2. Order PCB with **2oz copper** on outer layers (specify when ordering)
+3. Polygon pours are also acceptable but not required — 4mm traces work fine even for longer runs
+4. At layer transitions, use **via rows** (4-6 vias in a line along the trace) to match trace current capacity
+5. A single via only handles ~1A; for 6A paths, always use multiple vias in parallel
+
+**Via Row for Layer Transitions:**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ← 4mm trace (Layer 1)
+         ○    ○    ○    ○          ← 4-6 vias spaced along trace
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ← 4mm trace (Layer 4)
+```
 
 See Design Spec Section 8.2 for detailed layout guidance.
+
+### 13.2.1 Alternative: Polygon Pours (Copper Zones)
+
+For maximum current capacity and thermal performance, **polygon pours** can be used instead of wide traces:
+
+**Advantages of polygon pours:**
+- Lower resistance than traces (more copper area)
+- Better heat spreading across larger area
+- Easier routing around obstacles (pour flows around components)
+- Can provide EMI shielding when used as ground fill
+
+**When to prefer pours over traces:**
+- GND return path (often done as a solid plane on Layer 2)
+- Battery negative return area
+- Areas with multiple high-current nets converging
+- When board space allows large copper areas
+
+**Via farms for pours:**
+```
+████████████████████████  ← copper pour (Layer 1)
+██  ○  ○  ○  ○  ○  ○  ██  ← via array (grid pattern)
+██  ○  ○  ○  ○  ○  ○  ██
+████████████████████████  ← copper pour (Layer 4)
+```
+
+**Implementation in KiCad:**
+1. Draw a filled zone (Add Filled Zone tool)
+2. Assign to the net (e.g., GND, VSYS)
+3. Set clearance rules appropriately
+4. Add via stitching within the pour for layer transitions
 
 ### 13.3 Design Rule Check (DRC)
 
@@ -3405,9 +3446,18 @@ This guide covered:
 
 ---
 
-*Document Version: 3.13*
-*Based on: Safe Vaporizer Design Specification v3.13*
+*Document Version: 3.14*
+*Based on: Safe Vaporizer Design Specification v3.14*
 *Last Updated: January 2025*
+
+**v3.14 Changes (High-Current Routing Clarification):**
+- **4mm traces with 2oz copper are acceptable** for all high-current nets (6A capable)
+- Polygon pours optional but not required — 4mm traces work fine even for longer runs
+- **Via rows** replace via farms at layer transitions: 4-6 vias in a line along the trace
+- Single via handles ~1A; always use multiple vias in parallel for 6A paths
+- **Updated HighCurrent net class list** with additional nets: VBAT_RAW, GND_SENSE, PROT_MID, OPAMP_IN+
+- **AGND net added:** INA180/LM393 GND pins connect to AGND → NT1 → GND (star ground topology)
+- Updated Section 13.2 net class table and routing guidance
 
 **v3.13 Changes (Critical Topology Fix):**
 - **🔴 CRITICAL: MAX17055 Fuel Gauge LOW-SIDE Topology Correction**

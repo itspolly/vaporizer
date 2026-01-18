@@ -1874,9 +1874,36 @@ Layer 4 (Bottom):  Non-critical signals + DUPLICATE high-current traces from Top
 ```
 
 **Via Stitching Strategy:**
-- Stitch the Top and Bottom high-current paths (Battery → Boost → Coil) together with **"Via Farms"** (arrays of vias)
+- Use **4mm wide traces with 2oz copper** for high-current paths — this handles 6A+ with acceptable temperature rise
+- Stitch the Top and Bottom high-current paths (Battery → Boost → Coil) together with **via rows** (multiple vias in a line along the trace)
 - This doubles current capacity and halves trace resistance
-- Use 0.3mm vias, spaced 1-2mm apart along power traces
+- Use 0.3mm vias; place 4-6 vias in a row at each layer transition (a single via only handles ~1A)
+- Via row layout: vias spaced ~1mm apart along the trace length, not across the width
+
+**Alternative: Polygon Pours (Copper Zones)**
+
+For maximum current capacity, **polygon pours** can be used instead of or in addition to wide traces:
+
+| Approach | Best For | Via Style |
+|----------|----------|-----------|
+| 4mm traces | Most high-current routing | Via rows (4-6 in a line) |
+| Polygon pours | GND plane, battery return, converging nets | Via farms (grid array) |
+
+**When to prefer pours:**
+- GND return path (Layer 2 is typically a solid ground plane)
+- Battery negative return area near J3
+- Areas where multiple high-current nets converge (e.g., near Q4:Source)
+- When board space allows large copper areas
+
+**Via farm for pours:**
+```
+████████████████████████
+██  ○  ○  ○  ○  ○  ○  ██   ← grid pattern within pour
+██  ○  ○  ○  ○  ○  ○  ██
+████████████████████████
+```
+
+Both approaches are valid — choose based on your layout constraints. The key requirement is **2oz copper** and **multiple vias at layer transitions**.
 
 ### 8.2 Star Ground at Q4 Source (Critical for OCP Accuracy)
 
@@ -1930,11 +1957,11 @@ This design uses a **HIGH-SIDE current shunt** (between Q3:Drain and the coil). 
                               │
                               ▼
                        BATTERY NEGATIVE
-                    (massive polygon pour)
+                    (4mm trace or polygon pour)
 ```
 
 **Routing Strategy:**
-1. **High-Current Path:** Q4 Source → Battery Negative. Use **massive polygon pour** (6A return path).
+1. **High-Current Path:** Q4 Source → Battery Negative. Use **4mm trace with 2oz copper** (or polygon pour) for 6A return path.
 2. **Kelvin Connection:** Two thin (10-15 mil) traces from **inside** the Shunt pads to INA180 inputs. Route as differential pair (CS_P, CS_N). Connect **nothing else** to these traces.
 3. **The Star Point:** Net Tie connecting **AGND** (INA180/LM393 ground) to system **GND** at **Q4:Source**.
 4. **System Ground:** All digital grounds (ESP32, 555, Boost) connect to ground plane that ties back to Q4:Source.
@@ -2087,8 +2114,8 @@ E-juice is conductive and can track across PCB surfaces, especially on humid/dir
 
 **J6 Layout:**
 - Two large solder pads for 14 AWG wire (COIL+ and COIL-)
-- Route high-current traces (from boost output) with **2oz copper** to J6 pads
-- Add via stitching under pads for thermal/current handling
+- Route high-current traces (from boost output) with **4mm wide traces on 2oz copper** to J6 pads
+- At layer transitions, use **via rows** (4-6 vias in a line along the trace) for thermal/current handling
 - Place near board edge for easy cable routing
 
 **JST-XH (J5) for Fire Button LED:**
@@ -2172,7 +2199,7 @@ This creates an **auto-fire condition** that cannot be stopped by firmware.
 **Layout:**
 - Place near board edge for easy battery routing
 - Keep **away from heat sources** (TPS61088, Q3, Q4, shunt)
-- BAT- pad connects directly to shunt resistor input (high-current path)
+- BAT- pad connects directly to shunt resistor input (high-current path) — use **4mm trace with 2oz copper**
 - BAT+ pad connects to BQ29705 protection circuit
 
 **Thermal Considerations:**
@@ -2338,6 +2365,7 @@ This creates an **auto-fire condition** that cannot be stopped by firmware.
 | 3.11 | 2025-01-05 | **Final pre-capture cleanup:**<br>• **Added R_GS_Q3 (100kΩ):** Gate-source pull-up ensures Q3 stays OFF during power-up<br>• **L2 footprint verification:** Added checklist for high-current inductor pad geometry<br>• **GPIO3 isolation option:** Added R_ISO alternative for boot strapping issues |
 | 3.12 | 2025-01-05 | **🔴 CRITICAL FIXES (Design Review v3.12):**<br>• **BQ29705 V- wiring:** R2 now connects to Q1:Source (System GND), NOT Q2:Source — previous wiring caused OCD/SCD to NEVER trip!<br>• **R5 ILIM:** 2.4kΩ → 800Ω (I_INLIM = 1040/R = 1.3A) — old value gave only 0.43A<br>• **C_USB1 voltage:** 16V → 25V for USB-C transient protection<br>• **C_BOOT size:** 100nF → 10nF to prevent GPIO0 strapping issues<br>• **Added bypass caps:** C_SCHMITT, C_INV for U12/U13 (74LVC1G17/74LVC1G04)<br>• **Added FIRE_BTN debounce:** R_DEBOUNCE (10k) + C_DEBOUNCE (100nF) = 1ms τ<br>• **Added 510 ESD bleed:** R21 (1MΩ) from COIL- to GND (optional)<br>• **Q4 gate drive option:** Documented TC4426 Channel B alternative<br>• **Soft-start timing:** 20ms delay after BOOST_EN before PWM ramp<br>• **LEDC init code:** Added ESP32 PWM initialization example<br>• **STATUS: APPROVED FOR SCHEMATIC CAPTURE** |
 | 3.13 | 2025-01-10 | **🔴 CRITICAL: MAX17055 Fuel Gauge Topology Fix:**<br>• **LOW-SIDE sensing required:** MAX17055 CSP pin is IC ground reference (0V), BATT is power supply<br>• **Previous HIGH-SIDE topology was WRONG:** V_BATT − V_CSP ≈ 0V → IC would not power up!<br>• **New topology:** Sense resistor in ground return path (System GND → R_SENSE_FG → Battery-)<br>• **BATT pin** connects to VBAT_PROT (battery+), **CSP** to System GND, **CSN** to Battery- side<br>• **Removed VBAT_SENSE:** BQ25896 BAT now connects directly to VBAT_PROT<br>• **C_FG1 bypass:** 100nF between BATT and CSP (not to system GND)<br>• Updated all signal flow diagrams and schematic guide<br>• **STATUS: REQUIRES SCHEMATIC UPDATE** |
+| 3.14 | 2025-01-18 | **High-current routing clarification:**<br>• **4mm traces with 2oz copper are acceptable** for all high-current nets (6A capable)<br>• Polygon pours optional but not required — 4mm traces work fine even for longer runs<br>• **Via rows** (4-6 vias in a line along trace) replace via farms at layer transitions<br>• Single via handles ~1A; always use multiple vias in parallel for 6A paths<br>• Updated HighCurrent net class list with additional nets: VBAT_RAW, GND_SENSE, PROT_MID, OPAMP_IN+<br>• **AGND net added:** INA180/LM393 GND pins connect to AGND → NT1 → GND (star ground topology) |
 
 ---
 
