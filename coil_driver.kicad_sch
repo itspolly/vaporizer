@@ -3015,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.9574 85.1511) (xy 43.9574 85.09)
+			(xy 43.9574 85.09) (xy 43.9574 86.3119)
 		)
 		(stroke
 			(width 0)
@@ -3155,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 78.2827) (xy 54.5844 78.2827)
+			(xy 40.5161 78.2827) (xy 54.5844 78.2827)
 		)
 		(stroke
 			(width 0)
@@ -3395,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 85.09) (xy 43.9574 85.09)
+			(xy 40.5161 86.3119) (xy 43.9574 86.3119)
 		)
 		(stroke
 			(width 0)
@@ -3565,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 78.2827) (xy 40.64 77.47)
+			(xy 40.5161 78.2827) (xy 40.5161 78.6919)
 		)
 		(stroke
 			(width 0)
@@ -4360,7 +4360,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 81.28 0)
+		(at 40.5161 82.5019 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4369,7 +4369,7 @@
 		(fields_autoplaced yes)
 		(uuid "29d8d7d2-2124-40fb-a670-5dd10c86d5bc")
 		(property "Reference" "R_GS_Q3"
-			(at 43.18 80.0099 0)
+			(at 43.0561 81.2318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4378,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 43.18 82.5499 0)
+			(at 43.0561 83.7718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4387,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.862 81.28 90)
+			(at 38.7381 82.5019 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 81.28 0)
+			(at 40.5161 82.5019 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4405,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 81.28 0)
+			(at 40.5161 82.5019 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +6197,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed0e4d1c-9161-4615-9ea7-0af6ac73da4f")
 		(property "Reference" "Q3"
 			(at 28.4501 70.671 0)
