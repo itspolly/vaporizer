@@ -1,0 +1,2584 @@
+** Drc report for Vape2.0.kicad_pcb **
+** Created on 2026-01-20T10:02:53+0000 **
+
+** Found 363 DRC violations **
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(182.6725 mm, 82.0700 mm): Pad 1 [/boost_converter/BOOST_VCC] of C_VCC1 on F.Cu
+    @(183.6325 mm, 82.0700 mm): Pad 2 [GND] of C_VCC1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(155.8625 mm, 128.3000 mm): Pad 1 [/UI/VCC_3V3] of C_MCP1 on F.Cu
+    @(156.8225 mm, 128.3000 mm): Pad 2 [GND] of C_MCP1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(182.2225 mm, 100.1000 mm): Pad 1 [/usb_power/USB_CC1] of R17 on F.Cu
+    @(183.2425 mm, 100.1000 mm): Pad 2 [GND] of R17 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(179.7525 mm, 80.1500 mm): Pad 1 [/boost_converter/V_SENSE] of R_DIV1 on F.Cu
+    @(180.7725 mm, 80.1500 mm): Pad 2 [/boost_converter/V_BOOST] of R_DIV1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(155.8625 mm, 126.3300 mm): Pad 1 [/UI/VCC_3V3] of C_INA1 on F.Cu
+    @(156.8225 mm, 126.3300 mm): Pad 2 [GND] of C_INA1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(136.2925 mm, 143.3400 mm): Pad 1 [/battery_management/VBAT_PROT] of C_FG1 on F.Cu
+    @(137.2525 mm, 143.3400 mm): Pad 2 [/battery_management/GND_SENSE] of C_FG1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(116.2925 mm, 128.6600 mm): Pad 1 [/battery_management/PROT_V-] of R2 on F.Cu
+    @(117.3125 mm, 128.6600 mm): Pad 2 [GND] of R2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(174.3225 mm, 135.3300 mm): Pad 1 [/mcu/FIRE_EN] of R11 on F.Cu
+    @(175.3425 mm, 135.3300 mm): Pad 2 [GND] of R11 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(163.0125 mm, 138.4600 mm): Pad 1 [/UI/VCC_3V3] of C_SCHMITT1 on F.Cu
+    @(163.9725 mm, 138.4600 mm): Pad 2 [GND] of C_SCHMITT1 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2074 mm)
+    Rule: netclass 'Power'; error
+    @(125.6450 mm, 127.5800 mm): Pad 1 [/battery_management/VBUS] of U1 on F.Cu
+    @(126.5075 mm, 127.7300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Power'; error
+    @(125.6450 mm, 127.5800 mm): Pad 1 [/battery_management/VBUS] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(125.6450 mm, 127.5800 mm): Pad 1 [/battery_management/VBUS] of U1 on F.Cu
+    @(125.6450 mm, 128.0800 mm): Pad 2 [GND] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2993 mm)
+    Rule: netclass 'Power'; error
+    @(125.6450 mm, 127.5800 mm): Pad 1 [/battery_management/VBUS] of U1 on F.Cu
+    @(126.3575 mm, 126.8675 mm): Pad 24 [unconnected-(U1-NC-Pad24)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2751 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(125.6450 mm, 128.0800 mm): Pad 2 [GND] of U1 on F.Cu
+    @(126.5075 mm, 127.7300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(125.6450 mm, 128.0800 mm): Pad 2 [GND] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(125.6450 mm, 128.0800 mm): Pad 2 [GND] of U1 on F.Cu
+    @(125.6450 mm, 128.5800 mm): Pad 3 [/battery_management/CHG_PG] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2993 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(128.8575 mm, 130.7925 mm): Pad 12 [/battery_management/CHG_QON] of U1 on F.Cu
+    @(129.5700 mm, 130.0800 mm): Pad 13 [/battery_management/VBAT_PROT] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 130.0800 mm): Pad 13 [/battery_management/VBAT_PROT] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2074 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 130.0800 mm): Pad 13 [/battery_management/VBAT_PROT] of U1 on F.Cu
+    @(128.7075 mm, 129.9300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 129.5800 mm): Pad 14 [/battery_management/VBAT_PROT] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2751 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 129.5800 mm): Pad 14 [/battery_management/VBAT_PROT] of U1 on F.Cu
+    @(128.7075 mm, 129.9300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 129.5800 mm): Pad 14 [/battery_management/VBAT_PROT] of U1 on F.Cu
+    @(129.5700 mm, 129.0800 mm): Pad 15 [/battery_management/VSYS] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 129.0800 mm): Pad 15 [/battery_management/VSYS] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2332 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 129.0800 mm): Pad 15 [/battery_management/VSYS] of U1 on F.Cu
+    @(128.7075 mm, 128.8300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 128.5800 mm): Pad 16 [/battery_management/VSYS] of U1 on F.Cu
+    @(129.5700 mm, 128.0800 mm): Pad 17 [unconnected-(U1-PGND-Pad17)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 128.5800 mm): Pad 16 [/battery_management/VSYS] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2332 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(129.5700 mm, 128.5800 mm): Pad 16 [/battery_management/VSYS] of U1 on F.Cu
+    @(128.7075 mm, 128.8300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2993 mm)
+    Rule: netclass 'Power'; error
+    @(129.5700 mm, 127.5800 mm): Pad 18 [unconnected-(U1-PGND-Pad18)] of U1 on F.Cu
+    @(128.8575 mm, 126.8675 mm): Pad 19 [/battery_management/CHG_SW] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Power'; error
+    @(128.8575 mm, 126.8675 mm): Pad 19 [/battery_management/CHG_SW] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2074 mm)
+    Rule: netclass 'Power'; error
+    @(128.8575 mm, 126.8675 mm): Pad 19 [/battery_management/CHG_SW] of U1 on F.Cu
+    @(128.7075 mm, 127.7300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Power'; error
+    @(128.3575 mm, 126.8675 mm): Pad 20 [/battery_management/CHG_SW] of U1 on F.Cu
+    @(127.8575 mm, 126.8675 mm): Pad 21 [/battery_management/CHG_BTST] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Power'; error
+    @(128.3575 mm, 126.8675 mm): Pad 20 [/battery_management/CHG_SW] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2751 mm)
+    Rule: netclass 'Power'; error
+    @(128.3575 mm, 126.8675 mm): Pad 20 [/battery_management/CHG_SW] of U1 on F.Cu
+    @(128.7075 mm, 127.7300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Power'; error
+    @(127.3575 mm, 126.8675 mm): Pad 22 [/battery_management/CHG_REGN] of U1 on F.Cu
+    @(126.8575 mm, 126.8675 mm): Pad 23 [/battery_management/PMID] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2751 mm)
+    Rule: netclass 'Power'; error
+    @(126.8575 mm, 126.8675 mm): Pad 23 [/battery_management/PMID] of U1 on F.Cu
+    @(126.5075 mm, 127.7300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Power'; error
+    @(126.8575 mm, 126.8675 mm): Pad 23 [/battery_management/PMID] of U1 on F.Cu
+    @(127.6075 mm, 128.8300 mm): Pad 25 [unconnected-(U1-PAD-Pad25)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Power'; error
+    @(126.8575 mm, 126.8675 mm): Pad 23 [/battery_management/PMID] of U1 on F.Cu
+    @(126.3575 mm, 126.8675 mm): Pad 24 [unconnected-(U1-NC-Pad24)] of U1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(182.6725 mm, 80.1000 mm): Pad 1 [GND] of C_COMP1 on F.Cu
+    @(183.6325 mm, 80.1000 mm): Pad 2 [/boost_converter/BOOST_COMP] of C_COMP1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(148.2900 mm, 132.7400 mm): Pad 3 [/coil_driver/T_ALERT] of U15 on F.Cu
+    @(148.2900 mm, 133.3900 mm): Pad 4 [GND] of U15 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(152.5150 mm, 133.3900 mm): Pad 5 [unconnected-(U15-A2-Pad5)] of U15 on F.Cu
+    @(152.5150 mm, 132.7400 mm): Pad 6 [GND] of U15 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(152.5150 mm, 132.0900 mm): Pad 7 [GND] of U15 on F.Cu
+    @(152.5150 mm, 131.4400 mm): Pad 8 [/UI/VCC_3V3] of U15 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(179.7525 mm, 76.1700 mm): Pad 1 [/boost_converter/V_BOOST] of R4 on F.Cu
+    @(180.7725 mm, 76.1700 mm): Pad 2 [/boost_converter/DPOT_WIPER] of R4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(122.1125 mm, 130.6500 mm): Pad 1 [/battery_management/QREV_GATE] of R_REV1 on F.Cu
+    @(123.1325 mm, 130.6500 mm): Pad 2 [/battery_management/BAT_NEG] of R_REV1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3700 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(122.9125 mm, 89.1400 mm): Pad 1 [GND] of U5 on F.Cu
+    @(122.9125 mm, 90.4100 mm): Pad 2 [/UI/VCC_3V3] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3700 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(140.4125 mm, 90.4100 mm): Pad 39 [/UI/TP_RST] of U5 on F.Cu
+    @(140.4125 mm, 89.1400 mm): Pad 40 [GND] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(112.5425 mm, 126.7500 mm): Pad 1 [/battery_management/PMID] of C_PMID1 on F.Cu
+    @(113.5025 mm, 126.7500 mm): Pad 2 [GND] of C_PMID1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(163.0125 mm, 130.5800 mm): Pad 1 [/UI/VCC_3V3] of C_AND1 on F.Cu
+    @(163.9725 mm, 130.5800 mm): Pad 2 [GND] of C_AND1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(181.5325 mm, 104.7100 mm): Pad 1 [/battery_management/VBUS] of C_USB2 on F.Cu
+    @(182.4925 mm, 104.7100 mm): Pad 2 [GND] of C_USB2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(182.6725 mm, 78.1300 mm): Pad 1 [/boost_converter/BOOST_BOOT] of C_BOOT1 on F.Cu
+    @(183.6325 mm, 78.1300 mm): Pad 2 [/boost_converter/BOOST_SW] of C_BOOT1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(163.0125 mm, 136.4900 mm): Pad 1 [/UI/VCC_3V3] of C_INV1 on F.Cu
+    @(163.9725 mm, 136.4900 mm): Pad 2 [GND] of C_INV1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(155.8625 mm, 130.2700 mm): Pad 1 [/boost_converter/V_BOOST] of C_TC1 on F.Cu
+    @(156.8225 mm, 130.2700 mm): Pad 2 [GND] of C_TC1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(166.4400 mm, 132.3650 mm): Pad 6 [/safety_logic/LOGIC_2Y] of U7 on F.Cu
+    @(166.4400 mm, 133.0150 mm): Pad 7 [GND] of U7 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Power'; error
+    @(172.1650 mm, 129.7650 mm): Pad 13 [/coil_driver/T_ALERT] of U7 on F.Cu
+    @(172.1650 mm, 129.1150 mm): Pad 14 [/UI/VCC_3V3] of U7 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(163.0125 mm, 134.5200 mm): Pad 1 [/safety_logic/BTN_FILT] of C_DEBOUNCE1 on F.Cu
+    @(163.9725 mm, 134.5200 mm): Pad 2 [GND] of C_DEBOUNCE1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(179.7525 mm, 82.1400 mm): Pad 1 [/boost_converter/V_SENSE] of R_DIV2 on F.Cu
+    @(180.7725 mm, 82.1400 mm): Pad 2 [GND] of R_DIV2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(155.8625 mm, 124.3600 mm): Pad 1 [/coil_driver/OC_THRESH+] of C18 on F.Cu
+    @(156.8225 mm, 124.3600 mm): Pad 2 [GND] of C18 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.7625 mm, 90.7200 mm): Pad A1 [GND] of J2 on F.Cu
+    @(172.5625 mm, 90.7200 mm): Pad A4 [/battery_management/VBUS] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.7625 mm, 90.7200 mm): Pad A1 [GND] of J2 on F.Cu
+    @(172.5625 mm, 90.7200 mm): Pad B9 [/battery_management/VBUS] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Power'; error
+    @(172.5625 mm, 90.7200 mm): Pad A4 [/battery_management/VBUS] of J2 on F.Cu
+    @(173.2125 mm, 90.7200 mm): Pad B8 [<no net>] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(172.5625 mm, 90.7200 mm): Pad A4 [/battery_management/VBUS] of J2 on F.Cu
+    @(171.7625 mm, 90.7200 mm): Pad B12 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(177.3625 mm, 90.7200 mm): Pad A9 [/battery_management/VBUS] of J2 on F.Cu
+    @(178.1625 mm, 90.7200 mm): Pad A12 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Power'; error
+    @(177.3625 mm, 90.7200 mm): Pad A9 [/battery_management/VBUS] of J2 on F.Cu
+    @(176.7125 mm, 90.7200 mm): Pad B5 [/usb_power/USB_CC2] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(177.3625 mm, 90.7200 mm): Pad A9 [/battery_management/VBUS] of J2 on F.Cu
+    @(178.1625 mm, 90.7200 mm): Pad B1 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(178.1625 mm, 90.7200 mm): Pad A12 [GND] of J2 on F.Cu
+    @(177.3625 mm, 90.7200 mm): Pad B4 [/battery_management/VBUS] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(178.1625 mm, 90.7200 mm): Pad B1 [GND] of J2 on F.Cu
+    @(177.3625 mm, 90.7200 mm): Pad B4 [/battery_management/VBUS] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Power'; error
+    @(177.3625 mm, 90.7200 mm): Pad B4 [/battery_management/VBUS] of J2 on F.Cu
+    @(176.7125 mm, 90.7200 mm): Pad B5 [/usb_power/USB_CC2] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'Power'; error
+    @(173.2125 mm, 90.7200 mm): Pad B8 [<no net>] of J2 on F.Cu
+    @(172.5625 mm, 90.7200 mm): Pad B9 [/battery_management/VBUS] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(172.5625 mm, 90.7200 mm): Pad B9 [/battery_management/VBUS] of J2 on F.Cu
+    @(171.7625 mm, 90.7200 mm): Pad B12 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(112.5425 mm, 128.7200 mm): Pad 1 [/battery_management/PROT_BAT] of C_PROT1 on F.Cu
+    @(113.5025 mm, 128.7200 mm): Pad 2 [GND] of C_PROT1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(162.2925 mm, 97.2900 mm): Pad 1 [GND] of C_3V3_1 on F.Cu
+    @(163.2525 mm, 97.2900 mm): Pad 2 [/UI/VCC_3V3] of C_3V3_1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(163.0125 mm, 132.5500 mm): Pad 1 [/safety_logic/WDT_CONT] of C_CV1 on F.Cu
+    @(163.9725 mm, 132.5500 mm): Pad 2 [GND] of C_CV1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(182.6725 mm, 76.1600 mm): Pad 1 [/boost_converter/BOOST_SS] of C17 on F.Cu
+    @(183.6325 mm, 76.1600 mm): Pad 2 [GND] of C17 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(144.7325 mm, 121.8000 mm): Pad 1 [/coil_driver/COMP_IN-] of R8 on F.Cu
+    @(145.7525 mm, 121.8000 mm): Pad 2 [GND] of R8 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(179.7525 mm, 86.1200 mm): Pad 1 [/boost_converter/DPOT_WIPER] of R_SAFE1 on F.Cu
+    @(180.7725 mm, 86.1200 mm): Pad 2 [GND] of R_SAFE1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(156.3450 mm, 133.6550 mm): Pad 2 [/coil_driver/AGND] of U8 on F.Cu
+    @(156.3450 mm, 134.6050 mm): Pad 3 [/coil_driver/OPAMP_IN+] of U8 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(112.5425 mm, 130.6900 mm): Pad 1 [/battery_management/CHG_REGN] of C_REGN1 on F.Cu
+    @(113.5025 mm, 130.6900 mm): Pad 2 [GND] of C_REGN1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4210 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(108.9825 mm, 134.3500 mm): Pad 2 [/battery_management/PROT_COUT] of U2 on F.Cu
+    @(110.2425 mm, 134.8500 mm): Pad 4 [/battery_management/BAT_NEG] of U2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3200 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(108.9825 mm, 134.8500 mm): Pad 3 [/battery_management/PROT_DOUT] of U2 on F.Cu
+    @(110.2425 mm, 134.8500 mm): Pad 4 [/battery_management/BAT_NEG] of U2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2300 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(110.2425 mm, 134.8500 mm): Pad 4 [/battery_management/BAT_NEG] of U2 on F.Cu
+    @(110.2425 mm, 134.3500 mm): Pad 5 [/battery_management/PROT_BAT] of U2 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(144.7325 mm, 129.7600 mm): Pad 1 [/boost_converter/V_BOOST] of R_GS_Q3 on F.Cu
+    @(145.7525 mm, 129.7600 mm): Pad 2 [/coil_driver/Q4_GATE] of R_GS_Q3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(177.7250 mm, 139.8500 mm): Pad 2 [/safety_logic/BTN_FILT] of U13 on F.Cu
+    @(177.7250 mm, 140.5000 mm): Pad 3 [GND] of U13 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(177.7250 mm, 140.5000 mm): Pad 3 [GND] of U13 on F.Cu
+    @(179.5000 mm, 140.5000 mm): Pad 4 [/safety_logic/AND_1B] of U13 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(157.6250 mm, 97.7550 mm): Pad 1 [/battery_management/VSYS] of U14 on F.Cu
+    @(157.6250 mm, 98.7050 mm): Pad 2 [GND] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(157.6250 mm, 98.7050 mm): Pad 2 [GND] of U14 on F.Cu
+    @(157.6250 mm, 99.6550 mm): Pad 3 [/battery_management/VSYS] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(177.7250 mm, 136.2050 mm): Pad 2 [/safety_logic/WDT_OUT] of U12 on F.Cu
+    @(177.7250 mm, 136.8550 mm): Pad 3 [GND] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(177.7250 mm, 136.8550 mm): Pad 3 [GND] of U12 on F.Cu
+    @(179.5000 mm, 136.8550 mm): Pad 4 [/safety_logic/WDT_OK] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(116.2925 mm, 126.6700 mm): Pad 1 [/battery_management/VBAT_PROT] of R1 on F.Cu
+    @(117.3125 mm, 126.6700 mm): Pad 2 [/battery_management/PROT_BAT] of R1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(182.2225 mm, 102.0900 mm): Pad 1 [/usb_power/USB_CC2] of R18 on F.Cu
+    @(183.2425 mm, 102.0900 mm): Pad 2 [GND] of R18 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.2240 mm, 139.7160 mm): Pad A1 [unconnected-(U3-AIN-PadA1)] of U3 on F.Cu
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.1500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(137.2240 mm, 139.7160 mm): Pad A1 [unconnected-(U3-AIN-PadA1)] of U3 on F.Cu
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.1500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+    @(138.0240 mm, 139.7160 mm): Pad A3 [/battery_management/BAT_NEG] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3157 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3157 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(138.0240 mm, 139.7160 mm): Pad A3 [/battery_management/BAT_NEG] of U3 on F.Cu
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.1500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(138.0240 mm, 139.7160 mm): Pad A3 [/battery_management/BAT_NEG] of U3 on F.Cu
+    @(138.0240 mm, 140.1160 mm): Pad B3 [unconnected-(U3-REG-PadB3)] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.1500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+    @(137.2240 mm, 140.5160 mm): Pad C1 [/battery_management/I2C1_SDA] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3157 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+    @(137.6240 mm, 140.5160 mm): Pad C2 [unconnected-(U3-THRM-PadC2)] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.1500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+    @(137.6240 mm, 140.5160 mm): Pad C2 [unconnected-(U3-THRM-PadC2)] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.3157 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+    @(138.0240 mm, 140.5160 mm): Pad C3 [/battery_management/GND_SENSE] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+    @(138.0240 mm, 140.1160 mm): Pad B3 [unconnected-(U3-REG-PadB3)] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.1500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(138.0240 mm, 140.1160 mm): Pad B3 [unconnected-(U3-REG-PadB3)] of U3 on F.Cu
+    @(138.0240 mm, 140.5160 mm): Pad C3 [/battery_management/GND_SENSE] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(137.2240 mm, 140.5160 mm): Pad C1 [/battery_management/I2C1_SDA] of U3 on F.Cu
+    @(137.6240 mm, 140.5160 mm): Pad C2 [unconnected-(U3-THRM-PadC2)] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.1500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(137.6240 mm, 140.5160 mm): Pad C2 [unconnected-(U3-THRM-PadC2)] of U3 on F.Cu
+    @(138.0240 mm, 140.5160 mm): Pad C3 [/battery_management/GND_SENSE] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(116.2925 mm, 130.6500 mm): Pad 1 [/battery_management/CHG_ILIM] of R5 on F.Cu
+    @(117.3125 mm, 130.6500 mm): Pad 2 [GND] of R5 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(179.7525 mm, 84.1300 mm): Pad 1 [/boost_converter/BOOST_ILIM] of R_ILIM1 on F.Cu
+    @(180.7725 mm, 84.1300 mm): Pad 2 [GND] of R_ILIM1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(163.0125 mm, 128.6100 mm): Pad 1 [/UI/VCC_3V3] of C_555 on F.Cu
+    @(163.9725 mm, 128.6100 mm): Pad 2 [GND] of C_555 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(182.6725 mm, 84.0400 mm): Pad 1 [/boost_converter/V_SENSE] of C_VSENSE1 on F.Cu
+    @(183.6325 mm, 84.0400 mm): Pad 2 [GND] of C_VSENSE1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2014 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 77.3000 mm): Pad 1 [/boost_converter/BOOST_VCC] of U4 on F.Cu
+    @(170.1375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'Power' clearance 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Power'; error
+    @(169.2875 mm, 77.3000 mm): Pad 1 [/boost_converter/BOOST_VCC] of U4 on F.Cu
+    @(169.2875 mm, 77.8000 mm): Pad 2 [/boost_converter/BOOST_EN] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 77.3000 mm): Pad 1 [/boost_converter/BOOST_VCC] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4302 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 77.8000 mm): Pad 2 [/boost_converter/BOOST_EN] of U4 on F.Cu
+    @(170.1375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 77.8000 mm): Pad 2 [/boost_converter/BOOST_EN] of U4 on F.Cu
+    @(169.2875 mm, 78.3000 mm): Pad 3 [/battery_management/VSYS] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 77.8000 mm): Pad 2 [/boost_converter/BOOST_EN] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 78.3000 mm): Pad 3 [/battery_management/VSYS] of U4 on F.Cu
+    @(169.2875 mm, 78.8000 mm): Pad 4 [/boost_converter/BOOST_SW] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 78.3000 mm): Pad 3 [/battery_management/VSYS] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4302 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 78.8000 mm): Pad 4 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(170.1375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 78.8000 mm): Pad 4 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2014 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 79.3000 mm): Pad 5 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(170.1375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(169.2875 mm, 79.3000 mm): Pad 5 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2014 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(170.2375 mm, 80.2500 mm): Pad 6 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(170.1375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(170.2375 mm, 80.2500 mm): Pad 6 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4302 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(170.7375 mm, 80.2500 mm): Pad 7 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(170.1375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(170.7375 mm, 80.2500 mm): Pad 7 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(171.2375 mm, 80.2500 mm): Pad 8 [/boost_converter/BOOST_BOOT] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(170.7375 mm, 80.2500 mm): Pad 7 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.2375 mm, 80.2500 mm): Pad 8 [/boost_converter/BOOST_BOOT] of U4 on F.Cu
+    @(171.7375 mm, 80.2500 mm): Pad 9 [/battery_management/VSYS] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.2375 mm, 80.2500 mm): Pad 8 [/boost_converter/BOOST_BOOT] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.7375 mm, 80.2500 mm): Pad 9 [/battery_management/VSYS] of U4 on F.Cu
+    @(172.2375 mm, 80.2500 mm): Pad 10 [/boost_converter/BOOST_SS] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.7375 mm, 80.2500 mm): Pad 9 [/battery_management/VSYS] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4302 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.7375 mm, 80.2500 mm): Pad 9 [/battery_management/VSYS] of U4 on F.Cu
+    @(172.3375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(172.2375 mm, 80.2500 mm): Pad 10 [/boost_converter/BOOST_SS] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2014 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(172.2375 mm, 80.2500 mm): Pad 10 [/boost_converter/BOOST_SS] of U4 on F.Cu
+    @(172.3375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 79.3000 mm): Pad 11 [unconnected-(U4-NC-Pad11)] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2014 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 79.3000 mm): Pad 11 [unconnected-(U4-NC-Pad11)] of U4 on F.Cu
+    @(172.3375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 78.8000 mm): Pad 12 [unconnected-(U4-NC-Pad12)] of U4 on F.Cu
+    @(173.1875 mm, 78.3000 mm): Pad 13 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 78.8000 mm): Pad 12 [unconnected-(U4-NC-Pad12)] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4302 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 78.8000 mm): Pad 12 [unconnected-(U4-NC-Pad12)] of U4 on F.Cu
+    @(172.3375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 78.3000 mm): Pad 13 [GND] of U4 on F.Cu
+    @(173.1875 mm, 77.8000 mm): Pad 14 [/boost_converter/V_BOOST] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 77.8000 mm): Pad 14 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4302 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 77.8000 mm): Pad 14 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(172.3375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 77.3000 mm): Pad 15 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2014 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(173.1875 mm, 77.3000 mm): Pad 15 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(172.3375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(172.2375 mm, 76.3500 mm): Pad 16 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(171.7375 mm, 76.3500 mm): Pad 17 [/boost_converter/DPOT_WIPER] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(172.2375 mm, 76.3500 mm): Pad 16 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2014 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(172.2375 mm, 76.3500 mm): Pad 16 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(172.3375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.7375 mm, 76.3500 mm): Pad 17 [/boost_converter/DPOT_WIPER] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4302 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.7375 mm, 76.3500 mm): Pad 17 [/boost_converter/DPOT_WIPER] of U4 on F.Cu
+    @(172.3375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(171.2375 mm, 76.3500 mm): Pad 18 [/boost_converter/BOOST_COMP] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2500 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(170.7375 mm, 76.3500 mm): Pad 19 [/boost_converter/BOOST_ILIM] of U4 on F.Cu
+    @(170.2375 mm, 76.3500 mm): Pad 20 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4302 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(170.7375 mm, 76.3500 mm): Pad 19 [/boost_converter/BOOST_ILIM] of U4 on F.Cu
+    @(170.1375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.2000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(170.7375 mm, 76.3500 mm): Pad 19 [/boost_converter/BOOST_ILIM] of U4 on F.Cu
+    @(171.2375 mm, 78.3000 mm): Pad 21 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4000 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(180.3725 mm, 118.8100 mm): Pad 1 [/UI/VCC_3V3] of C_DISP1 on F.Cu
+    @(181.3325 mm, 118.8100 mm): Pad 2 [GND] of C_DISP1 on F.Cu
+[clearance]: Clearance violation (netclass 'HighCurrent' clearance 0.5000 mm; actual 0.4800 mm)
+    Rule: netclass 'HighCurrent'; error
+    @(119.2025 mm, 128.6600 mm): Pad 1 [/battery_management/NTC_TS] of R20 on F.Cu
+    @(120.2225 mm, 128.6600 mm): Pad 2 [GND] of R20 on F.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(126.5075 mm, 127.7300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(126.5075 mm, 128.8300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(126.5075 mm, 129.9300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(127.6075 mm, 127.7300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(127.6075 mm, 128.8300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(127.6075 mm, 129.9300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(128.7075 mm, 127.7300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(128.7075 mm, 128.8300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(128.7075 mm, 129.9300 mm): PTH pad 25 [unconnected-(U1-PAD-Pad25)] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(128.7625 mm, 96.1600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(128.7625 mm, 97.5600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(129.4625 mm, 95.4600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(129.4625 mm, 96.8600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(129.4625 mm, 98.2600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(130.1625 mm, 96.1600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(130.1625 mm, 97.5600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(130.8625 mm, 95.4600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(130.8625 mm, 96.8600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(130.8625 mm, 98.2600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(131.5625 mm, 96.1600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(131.5625 mm, 97.5600 mm): PTH pad 41 [GND] of U5
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(170.1375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(170.1375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(172.3375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(172.3375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): PCB
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.2240 mm, 139.7160 mm): Pad A1 [unconnected-(U3-AIN-PadA1)] of U3 on F.Cu
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.2240 mm, 139.7160 mm): Pad A1 [unconnected-(U3-AIN-PadA1)] of U3 on F.Cu
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+    @(138.0240 mm, 139.7160 mm): Pad A3 [/battery_management/BAT_NEG] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(138.0240 mm, 139.7160 mm): Pad A3 [/battery_management/BAT_NEG] of U3 on F.Cu
+    @(138.0240 mm, 140.1160 mm): Pad B3 [unconnected-(U3-REG-PadB3)] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+    @(137.2240 mm, 140.5160 mm): Pad C1 [/battery_management/I2C1_SDA] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+    @(137.6240 mm, 140.5160 mm): Pad C2 [unconnected-(U3-THRM-PadC2)] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+    @(138.0240 mm, 140.1160 mm): Pad B3 [unconnected-(U3-REG-PadB3)] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(138.0240 mm, 140.1160 mm): Pad B3 [unconnected-(U3-REG-PadB3)] of U3 on F.Cu
+    @(138.0240 mm, 140.5160 mm): Pad C3 [/battery_management/GND_SENSE] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.2240 mm, 140.5160 mm): Pad C1 [/battery_management/I2C1_SDA] of U3 on F.Cu
+    @(137.6240 mm, 140.5160 mm): Pad C2 [unconnected-(U3-THRM-PadC2)] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.6240 mm, 140.5160 mm): Pad C2 [unconnected-(U3-THRM-PadC2)] of U3 on F.Cu
+    @(138.0240 mm, 140.5160 mm): Pad C3 [/battery_management/GND_SENSE] of U3 on F.Cu
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(109.9545 mm, 132.8116 mm): Reference field of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(109.3625 mm, 126.6300 mm): Reference field of C_IN1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(183.1525 mm, 80.9100 mm): Reference field of C_VCC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(156.3425 mm, 127.1400 mm): Reference field of C_MCP1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(180.2625 mm, 78.9800 mm): Reference field of R_DIV1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.2425 mm, 118.6400 mm): Reference field of R7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.7725 mm, 98.1000 mm): Reference field of C_BOOT_MCU1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(156.3425 mm, 125.1700 mm): Reference field of C_INA1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.7025 mm, 131.8100 mm): Reference field of J7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.2425 mm, 124.6100 mm): Reference field of R_G3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(116.8025 mm, 127.4900 mm): Reference field of R2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.0925 mm, 89.0900 mm): Reference field of R14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(170.5625 mm, 81.2500 mm): Reference field of C16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(180.2625 mm, 76.9900 mm): Reference field of R_COMP1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.6225 mm, 127.4900 mm): Reference field of R_QON1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.4925 mm, 137.3000 mm): Reference field of C_SCHMITT1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(183.1525 mm, 78.9400 mm): Reference field of C_COMP1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.2425 mm, 122.6200 mm): Reference field of R10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(174.8325 mm, 136.1500 mm): Reference field of R12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.6225 mm, 129.4800 mm): Reference field of R_REV1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(109.3625 mm, 129.6400 mm): Reference field of C_SYS1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(113.0225 mm, 125.5900 mm): Reference field of C_PMID1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.4925 mm, 129.4200 mm): Reference field of C_AND1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(183.1525 mm, 76.9700 mm): Reference field of C_BOOT1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.4925 mm, 135.3300 mm): Reference field of C_INV1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(156.3425 mm, 129.1100 mm): Reference field of C_TC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.4925 mm, 133.3600 mm): Reference field of C_DEBOUNCE1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.2425 mm, 119.1600 mm): Reference field of R21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(180.2625 mm, 80.9700 mm): Reference field of R_DIV2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(176.5825 mm, 81.0200 mm): Reference field of C_BOUT2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.7125 mm, 129.4800 mm): Reference field of R_G1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(176.5825 mm, 78.0100 mm): Reference field of C_BOUT1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(113.0225 mm, 127.5600 mm): Reference field of C_PROT1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(175.6825 mm, 130.4600 mm): Reference field of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(163.4925 mm, 131.3900 mm): Reference field of C_CV1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.0925 mm, 93.0700 mm): Reference field of R16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.2425 mm, 120.6300 mm): Reference field of R8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(180.2625 mm, 84.9500 mm): Reference field of R_SAFE1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.0925 mm, 91.0800 mm): Reference field of R15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(113.0225 mm, 129.5300 mm): Reference field of C_REGN1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(174.8325 mm, 138.1400 mm): Reference field of R_ALERT1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(158.4125 mm, 93.1200 mm): Reference field of C_LDO_OUT1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.2425 mm, 128.5900 mm): Reference field of R_GS_Q3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.7025 mm, 131.4700 mm): Reference field of R_SENSE_FG1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(174.8325 mm, 140.1300 mm): Reference field of R_DEBOUNCE1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(182.7325 mm, 100.9200 mm): Reference field of R18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.2425 mm, 126.6000 mm): Reference field of R_G3_HS1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(116.8025 mm, 129.4800 mm): Reference field of R5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(180.2625 mm, 82.9600 mm): Reference field of R_ILIM1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(183.1525 mm, 82.8800 mm): Reference field of C_VSENSE1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.7125 mm, 127.4900 mm): Reference field of R20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(158.4125 mm, 90.1100 mm): Reference field of C_LDO_IN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.6725 mm, 98.3150 mm): Segment of U14 on F.Silkscreen
+    @(162.7725 mm, 98.1000 mm): Reference field of C_BOOT_MCU1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.7725 mm, 98.1000 mm): Reference field of C_BOOT_MCU1
+    @(162.6647 mm, 97.6500 mm): Segment of C_3V3_1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(177.9625 mm, 117.6500 mm): Reference field of R22
+    @(180.8525 mm, 117.6500 mm): Reference field of C_DISP1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(182.0125 mm, 103.5500 mm): Reference field of C_USB2
+    @(178.3525 mm, 103.5500 mm): Reference field of C_USB1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(178.3525 mm, 103.5500 mm): Reference field of C_USB1
+    @(179.6125 mm, 103.0150 mm): Segment of D3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(178.3525 mm, 103.5500 mm): Reference field of C_USB1
+    @(179.6125 mm, 103.0650 mm): Segment of D3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(182.0125 mm, 103.5500 mm): Reference field of C_USB2
+    @(179.6125 mm, 103.0650 mm): Segment of D3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(182.0125 mm, 103.5500 mm): Reference field of C_USB2
+    @(179.6125 mm, 103.0150 mm): Segment of D3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.8025 mm, 123.2300 mm): Reference field of Q4
+    @(148.2175 mm, 122.6700 mm): Segment of Q3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(157.2425 mm, 119.1600 mm): Reference field of R21
+    @(157.0052 mm, 118.6025 mm): Segment of R9 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.4025 mm, 129.9650 mm): Reference field of U15
+    @(153.8625 mm, 129.4150 mm): Segment of Q4 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(182.7325 mm, 100.9200 mm): Reference field of R18
+    @(182.5789 mm, 100.4800 mm): Segment of R17 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(114.3025 mm, 123.1250 mm): Segment of Q2 on F.Silkscreen
+    @(113.0225 mm, 123.6200 mm): Reference field of C_BTST1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(109.3625 mm, 123.6200 mm): Reference field of C_BAT1
+    @(113.0225 mm, 123.6200 mm): Reference field of C_BTST1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(112.9147 mm, 125.1400 mm): Segment of C_BTST1 on F.Silkscreen
+    @(113.0225 mm, 125.5900 mm): Reference field of C_PMID1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(116.3725 mm, 124.9500 mm): Segment of L1 on F.Silkscreen
+    @(116.8025 mm, 125.5000 mm): Reference field of R1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(109.3625 mm, 123.6200 mm): Reference field of C_BAT1
+    @(114.3025 mm, 123.1250 mm): Segment of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(111.2425 mm, 116.9400 mm): Reference field of Q2
+    @(114.3025 mm, 116.4150 mm): Segment of Q1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(141.6225 mm, 122.7450 mm): Segment of U9 on F.Silkscreen
+    @(139.5625 mm, 123.3700 mm): Reference field of U10
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(123.7725 mm, 122.6500 mm): Segment of L1 on F.Silkscreen
+    @(122.6225 mm, 125.5000 mm): Reference field of R_G2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(122.6225 mm, 127.4900 mm): Reference field of R_QON1
+    @(124.9675 mm, 127.5800 mm): Polygon of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(123.7725 mm, 124.9500 mm): Segment of L1 on F.Silkscreen
+    @(122.6225 mm, 125.5000 mm): Reference field of R_G2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.2425 mm, 126.6000 mm): Reference field of R_G3_HS1
+    @(145.0889 mm, 126.1600 mm): Segment of R_G3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(156.3425 mm, 129.1100 mm): Reference field of C_TC1
+    @(156.2347 mm, 128.6600 mm): Segment of C_MCP1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(156.2347 mm, 124.7200 mm): Segment of C18 on F.Silkscreen
+    @(156.3425 mm, 125.1700 mm): Reference field of C_INA1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.3925 mm, 133.2650 mm): Segment of U8 on F.Silkscreen
+    @(163.4925 mm, 133.3600 mm): Reference field of C_DEBOUNCE1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.0889 mm, 118.2000 mm): Segment of R6 on F.Silkscreen
+    @(145.2425 mm, 118.6400 mm): Reference field of R7
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.2425 mm, 120.6300 mm): Reference field of R8
+    @(145.0889 mm, 120.1900 mm): Segment of R7 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.0889 mm, 124.1700 mm): Segment of R10 on F.Silkscreen
+    @(145.2425 mm, 124.6100 mm): Reference field of R_G3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.2425 mm, 128.5900 mm): Reference field of R_GS_Q3
+    @(145.0889 mm, 128.1500 mm): Segment of R_G3_HS1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.0889 mm, 122.1800 mm): Segment of R8 on F.Silkscreen
+    @(145.2425 mm, 122.6200 mm): Reference field of R10
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.1512 mm, 89.5150 mm): Segment of C_3V3_2 on F.Silkscreen
+    @(158.4125 mm, 90.1100 mm): Reference field of C_LDO_IN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(183.1525 mm, 80.9100 mm): Reference field of C_VCC1
+    @(180.2625 mm, 80.9700 mm): Reference field of R_DIV2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(183.0447 mm, 80.4600 mm): Segment of C_COMP1 on F.Silkscreen
+    @(183.1525 mm, 80.9100 mm): Reference field of C_VCC1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(183.1525 mm, 78.9400 mm): Reference field of C_COMP1
+    @(180.2625 mm, 78.9800 mm): Reference field of R_DIV1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(183.1525 mm, 82.8800 mm): Reference field of C_VSENSE1
+    @(180.2625 mm, 82.9600 mm): Reference field of R_ILIM1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(183.0447 mm, 82.4300 mm): Segment of C_VCC1 on F.Silkscreen
+    @(183.1525 mm, 82.8800 mm): Reference field of C_VSENSE1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(176.5825 mm, 78.0100 mm): Reference field of C_BOUT1
+    @(180.2625 mm, 78.9800 mm): Reference field of R_DIV1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.1089 mm, 78.5400 mm): Segment of R_COMP1 on F.Silkscreen
+    @(180.2625 mm, 78.9800 mm): Reference field of R_DIV1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.1089 mm, 78.5400 mm): Segment of R_COMP1 on F.Silkscreen
+    @(183.1525 mm, 78.9400 mm): Reference field of C_COMP1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(176.5825 mm, 78.0100 mm): Reference field of C_BOUT1
+    @(180.2625 mm, 76.9900 mm): Reference field of R_COMP1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.1089 mm, 76.5500 mm): Segment of R4 on F.Silkscreen
+    @(180.2625 mm, 76.9900 mm): Reference field of R_COMP1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.2625 mm, 76.9900 mm): Reference field of R_COMP1
+    @(183.1525 mm, 76.9700 mm): Reference field of C_BOOT1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.1089 mm, 76.5500 mm): Segment of R4 on F.Silkscreen
+    @(183.1525 mm, 76.9700 mm): Reference field of C_BOOT1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(176.5825 mm, 78.0100 mm): Reference field of C_BOUT1
+    @(176.3212 mm, 77.4150 mm): Segment of C_BIN1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(169.4375 mm, 74.4000 mm): Segment of L2 on F.Silkscreen
+    @(176.5825 mm, 75.0000 mm): Reference field of C_BIN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(169.4375 mm, 74.4000 mm): Segment of L2 on F.Silkscreen
+    @(171.2375 mm, 75.0000 mm): Reference field of U4
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(183.0447 mm, 78.4900 mm): Segment of C_BOOT1 on F.Silkscreen
+    @(183.1525 mm, 78.9400 mm): Reference field of C_COMP1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.2625 mm, 76.9900 mm): Reference field of R_COMP1
+    @(183.0447 mm, 76.5200 mm): Segment of C17 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(183.0447 mm, 76.5200 mm): Segment of C17 on F.Silkscreen
+    @(183.1525 mm, 76.9700 mm): Reference field of C_BOOT1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.2625 mm, 80.9700 mm): Reference field of R_DIV2
+    @(176.5825 mm, 81.0200 mm): Reference field of C_BOUT2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.1089 mm, 80.5300 mm): Segment of R_DIV1 on F.Silkscreen
+    @(180.2625 mm, 80.9700 mm): Reference field of R_DIV2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(176.5825 mm, 81.0200 mm): Reference field of C_BOUT2
+    @(176.3212 mm, 80.4250 mm): Segment of C_BOUT1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(122.6225 mm, 127.4900 mm): Reference field of R_QON1
+    @(122.4689 mm, 127.0500 mm): Segment of R_G2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(122.6225 mm, 129.4800 mm): Reference field of R_REV1
+    @(122.4689 mm, 129.0400 mm): Segment of R_QON1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(122.4689 mm, 131.0300 mm): Segment of R_REV1 on F.Silkscreen
+    @(119.7025 mm, 131.4700 mm): Reference field of R_SENSE_FG1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(109.3625 mm, 126.6300 mm): Reference field of C_IN1
+    @(113.0225 mm, 125.5900 mm): Reference field of C_PMID1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(113.0225 mm, 127.5600 mm): Reference field of C_PROT1
+    @(112.9147 mm, 127.1100 mm): Segment of C_PMID1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(113.0225 mm, 129.5300 mm): Reference field of C_REGN1
+    @(112.9147 mm, 129.0800 mm): Segment of C_PROT1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(109.3625 mm, 129.6400 mm): Reference field of C_SYS1
+    @(113.0225 mm, 129.5300 mm): Reference field of C_REGN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(116.8025 mm, 127.4900 mm): Reference field of R2
+    @(116.6489 mm, 127.0500 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(113.0225 mm, 125.5900 mm): Reference field of C_PMID1
+    @(116.8025 mm, 125.5000 mm): Reference field of R1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(116.8025 mm, 127.4900 mm): Reference field of R2
+    @(113.0225 mm, 127.5600 mm): Reference field of C_PROT1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(116.8025 mm, 129.4800 mm): Reference field of R5
+    @(116.6489 mm, 129.0400 mm): Segment of R2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(116.8025 mm, 129.4800 mm): Reference field of R5
+    @(113.0225 mm, 129.5300 mm): Reference field of C_REGN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(116.6489 mm, 131.0300 mm): Segment of R5 on F.Silkscreen
+    @(119.7025 mm, 131.4700 mm): Reference field of R_SENSE_FG1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(109.1012 mm, 126.0350 mm): Segment of C_BAT1 on F.Silkscreen
+    @(109.3625 mm, 126.6300 mm): Reference field of C_IN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(109.3625 mm, 126.6300 mm): Reference field of C_IN1
+    @(113.0225 mm, 127.5600 mm): Reference field of C_PROT1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(109.1012 mm, 129.0450 mm): Segment of C_IN1 on F.Silkscreen
+    @(109.3625 mm, 129.6400 mm): Reference field of C_SYS1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(122.6225 mm, 127.4900 mm): Reference field of R_QON1
+    @(119.7125 mm, 127.4900 mm): Reference field of R20
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(119.5589 mm, 127.0500 mm): Segment of R19 on F.Silkscreen
+    @(122.6225 mm, 127.4900 mm): Reference field of R_QON1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(119.5589 mm, 127.0500 mm): Segment of R19 on F.Silkscreen
+    @(119.7125 mm, 127.4900 mm): Reference field of R20
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(119.7125 mm, 129.4800 mm): Reference field of R_G1
+    @(122.6225 mm, 129.4800 mm): Reference field of R_REV1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(119.5589 mm, 129.0400 mm): Segment of R20 on F.Silkscreen
+    @(119.7125 mm, 129.4800 mm): Reference field of R_G1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(119.5589 mm, 131.0300 mm): Segment of R_G1 on F.Silkscreen
+    @(119.7025 mm, 131.4700 mm): Reference field of R_SENSE_FG1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(119.7125 mm, 125.5000 mm): Reference field of R19
+    @(122.6225 mm, 125.5000 mm): Reference field of R_G2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(119.7125 mm, 125.5000 mm): Reference field of R19
+    @(123.7725 mm, 124.9500 mm): Segment of L1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(123.7725 mm, 124.9500 mm): Segment of L1 on F.Silkscreen
+    @(116.8025 mm, 125.5000 mm): Reference field of R1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(139.4075 mm, 129.7700 mm): Reference field of D_FLY1
+    @(137.5025 mm, 129.3300 mm): Segment of U10 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(139.4075 mm, 129.7700 mm): Reference field of D_FLY1
+    @(141.6225 mm, 129.3300 mm): Segment of U10 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(139.4075 mm, 129.7700 mm): Reference field of D_FLY1
+    @(141.6225 mm, 129.2350 mm): Segment of U10 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(174.6789 mm, 135.7100 mm): Segment of R11 on F.Silkscreen
+    @(174.8325 mm, 136.1500 mm): Reference field of R12
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(174.8325 mm, 138.1400 mm): Reference field of R_ALERT1
+    @(174.6789 mm, 137.7000 mm): Segment of R12 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(175.6825 mm, 130.4600 mm): Reference field of R3
+    @(175.6412 mm, 129.8650 mm): Segment of C15 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(179.3475 mm, 137.3150 mm): Segment of U12 on F.Silkscreen
+    @(178.6125 mm, 137.9000 mm): Reference field of U13
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(163.3847 mm, 128.9700 mm): Segment of C_555 on F.Silkscreen
+    @(163.4925 mm, 129.4200 mm): Reference field of C_AND1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(163.3847 mm, 130.9400 mm): Segment of C_AND1 on F.Silkscreen
+    @(163.4925 mm, 131.3900 mm): Reference field of C_CV1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(169.1525 mm, 134.2950 mm): Reference field of U6
+    @(163.4925 mm, 133.3600 mm): Reference field of C_DEBOUNCE1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.6125 mm, 133.6750 mm): Segment of U7 on F.Silkscreen
+    @(163.4925 mm, 133.3600 mm): Reference field of C_DEBOUNCE1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(163.3847 mm, 132.9100 mm): Segment of C_CV1 on F.Silkscreen
+    @(163.4925 mm, 133.3600 mm): Reference field of C_DEBOUNCE1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(163.4925 mm, 137.3000 mm): Reference field of C_SCHMITT1
+    @(163.3847 mm, 136.8500 mm): Segment of C_INV1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(169.1525 mm, 134.2950 mm): Reference field of U6
+    @(171.6125 mm, 133.6750 mm): Segment of U7 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(163.3847 mm, 134.8800 mm): Segment of C_DEBOUNCE1 on F.Silkscreen
+    @(163.4925 mm, 135.3300 mm): Reference field of C_INV1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.2125 mm, 140.2550 mm): Segment of U6 on F.Silkscreen
+    @(174.8325 mm, 140.1300 mm): Reference field of R_DEBOUNCE1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(174.6789 mm, 139.6900 mm): Segment of R_ALERT1 on F.Silkscreen
+    @(174.8325 mm, 140.1300 mm): Reference field of R_DEBOUNCE1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(179.3475 mm, 139.6600 mm): Segment of U13 on F.Silkscreen
+    @(174.8325 mm, 140.1300 mm): Reference field of R_DEBOUNCE1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(174.8325 mm, 138.1400 mm): Reference field of R_ALERT1
+    @(177.7225 mm, 138.7300 mm): Polygon of U13 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(174.8325 mm, 138.1400 mm): Reference field of R_ALERT1
+    @(178.6125 mm, 137.9000 mm): Reference field of U13
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.9625 mm, 72.9500 mm): Reference field of SW_BOOT1
+    @(159.7125 mm, 72.4000 mm): Segment of C_RST1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.7125 mm, 79.4500 mm): Segment of SW_BOOT1 on F.Silkscreen
+    @(160.9625 mm, 80.0000 mm): Reference field of SW_RST1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.9625 mm, 80.0000 mm): Reference field of SW_RST1
+    @(162.6625 mm, 79.0000 mm): Segment of SW_BOOT1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.9625 mm, 80.0000 mm): Reference field of SW_RST1
+    @(159.2625 mm, 79.0000 mm): Segment of SW_BOOT1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.0925 mm, 89.0900 mm): Reference field of R14
+    @(161.9389 mm, 88.6500 mm): Segment of R13 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.4125 mm, 87.1000 mm): Reference field of C_3V3_2
+    @(162.0925 mm, 87.1000 mm): Reference field of R13
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.6625 mm, 86.0500 mm): Segment of SW_RST1 on F.Silkscreen
+    @(162.0925 mm, 87.1000 mm): Reference field of R13
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.7125 mm, 86.5000 mm): Segment of SW_RST1 on F.Silkscreen
+    @(162.0925 mm, 87.1000 mm): Reference field of R13
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.4125 mm, 87.1000 mm): Reference field of C_3V3_2
+    @(159.7125 mm, 86.5000 mm): Segment of SW_RST1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.2625 mm, 86.0500 mm): Segment of SW_RST1 on F.Silkscreen
+    @(158.4125 mm, 87.1000 mm): Reference field of C_3V3_2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.0925 mm, 89.0900 mm): Reference field of R14
+    @(158.4125 mm, 90.1100 mm): Reference field of C_LDO_IN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(161.9389 mm, 89.8800 mm): Segment of R14 on F.Silkscreen
+    @(158.4125 mm, 90.1100 mm): Reference field of C_LDO_IN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.4125 mm, 90.1100 mm): Reference field of C_LDO_IN1
+    @(161.9389 mm, 90.6400 mm): Segment of R14 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.0925 mm, 91.0800 mm): Reference field of R15
+    @(161.9389 mm, 90.6400 mm): Segment of R14 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.0925 mm, 91.0800 mm): Reference field of R15
+    @(158.4125 mm, 90.1100 mm): Reference field of C_LDO_IN1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.2625 mm, 84.9500 mm): Reference field of R_SAFE1
+    @(183.0447 mm, 84.4000 mm): Segment of C_VSENSE1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(180.2625 mm, 84.9500 mm): Reference field of R_SAFE1
+    @(180.1089 mm, 84.5100 mm): Segment of R_ILIM1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.7625 mm, 96.3050 mm): Reference field of U14
+    @(162.7725 mm, 96.1300 mm): Reference field of C_3V3_1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.0925 mm, 93.0700 mm): Reference field of R16
+    @(158.4125 mm, 93.1200 mm): Reference field of C_LDO_OUT1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(161.9389 mm, 92.6300 mm): Segment of R15 on F.Silkscreen
+    @(162.0925 mm, 93.0700 mm): Reference field of R16
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(161.9389 mm, 92.6300 mm): Segment of R15 on F.Silkscreen
+    @(158.4125 mm, 93.1200 mm): Reference field of C_LDO_OUT1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.1512 mm, 92.5250 mm): Segment of C_LDO_IN1 on F.Silkscreen
+    @(158.4125 mm, 93.1200 mm): Reference field of C_LDO_OUT1
+
+** Found 300 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.3425 mm, 111.8250 mm): Pad 1 [GND] of Q1 on F.Cu
+    @(108.3425 mm, 113.0950 mm): Pad 2 [GND] of Q1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.3425 mm, 113.0950 mm): Pad 2 [GND] of Q1 on F.Cu
+    @(108.3425 mm, 114.3650 mm): Pad 3 [GND] of Q1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.4125 mm, 128.3100 mm): Pad 1 [GND] of C_IN1 on F.Cu
+    @(108.4125 mm, 131.3200 mm): Pad 1 [GND] of C_SYS1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3125 mm, 125.3000 mm): Pad 2 [GND] of C_BAT1 on F.Cu
+    @(108.4125 mm, 128.3100 mm): Pad 1 [GND] of C_IN1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3125 mm, 125.3000 mm): Pad 2 [GND] of C_BAT1 on F.Cu
+    @(108.3425 mm, 114.3650 mm): Pad 3 [GND] of Q1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.5025 mm, 126.7500 mm): Pad 2 [GND] of C_PMID1 on F.Cu
+    @(110.3125 mm, 125.3000 mm): Pad 2 [GND] of C_BAT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.5025 mm, 128.7200 mm): Pad 2 [GND] of C_PROT1 on F.Cu
+    @(113.5025 mm, 126.7500 mm): Pad 2 [GND] of C_PMID1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.5025 mm, 130.6900 mm): Pad 2 [GND] of C_REGN1 on F.Cu
+    @(113.5025 mm, 128.7200 mm): Pad 2 [GND] of C_PROT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.5025 mm, 130.6900 mm): Pad 2 [GND] of C_REGN1 on F.Cu
+    @(117.3125 mm, 130.6500 mm): Pad 2 [GND] of R5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.3125 mm, 128.6600 mm): Pad 2 [GND] of R2 on F.Cu
+    @(120.2225 mm, 128.6600 mm): Pad 2 [GND] of R20 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.3125 mm, 130.6500 mm): Pad 2 [GND] of R5 on F.Cu
+    @(117.3125 mm, 128.6600 mm): Pad 2 [GND] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.6450 mm, 128.0800 mm): Pad 2 [GND] of U1 on F.Cu
+    @(120.2225 mm, 128.6600 mm): Pad 2 [GND] of R20 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.4625 mm, 95.4600 mm): PTH pad 41 [GND] of U5
+    @(122.9125 mm, 89.1400 mm): Pad 1 [GND] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.0025 mm, 134.0900 mm): PTH pad 2 [GND] of J7
+    @(125.6450 mm, 128.0800 mm): Pad 2 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5625 mm, 96.1600 mm): PTH pad 41 [GND] of U5
+    @(140.4125 mm, 89.1400 mm): Pad 40 [GND] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.0875 mm, 127.4050 mm): Pad 3 [GND] of U10 on F.Cu
+    @(142.0375 mm, 122.0900 mm): Pad 5 [GND] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.0875 mm, 127.4050 mm): Pad 3 [GND] of U10 on F.Cu
+    @(131.0025 mm, 134.0900 mm): PTH pad 2 [GND] of J7
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.4125 mm, 89.1400 mm): Pad 40 [GND] of U5 on F.Cu
+    @(157.4625 mm, 88.7800 mm): Pad 1 [GND] of C_3V3_2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0375 mm, 122.0900 mm): Pad 5 [GND] of U9 on F.Cu
+    @(145.7525 mm, 121.8000 mm): Pad 2 [GND] of R8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.7525 mm, 121.8000 mm): Pad 2 [GND] of R8 on F.Cu
+    @(147.9025 mm, 124.8250 mm): Pad 1 [GND] of Q4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.9025 mm, 124.8250 mm): Pad 1 [GND] of Q4 on F.Cu
+    @(147.9025 mm, 126.0950 mm): Pad 2 [GND] of Q4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.9025 mm, 127.3650 mm): Pad 3 [GND] of Q4 on F.Cu
+    @(147.9025 mm, 126.0950 mm): Pad 2 [GND] of Q4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.2900 mm, 133.3900 mm): Pad 4 [GND] of U15 on F.Cu
+    @(152.5150 mm, 132.7400 mm): Pad 6 [GND] of U15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.2900 mm, 133.3900 mm): Pad 4 [GND] of U15 on F.Cu
+    @(147.9025 mm, 127.3650 mm): Pad 3 [GND] of Q4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.5150 mm, 132.0900 mm): Pad 7 [GND] of U15 on F.Cu
+    @(152.5150 mm, 132.7400 mm): Pad 6 [GND] of U15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.5150 mm, 132.0900 mm): Pad 7 [GND] of U15 on F.Cu
+    @(156.8225 mm, 130.2700 mm): Pad 2 [GND] of C_TC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.9875 mm, 122.5950 mm): Pad 1 [GND] of NT1 on F.Cu
+    @(156.8225 mm, 124.3600 mm): Pad 2 [GND] of C18 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.8225 mm, 124.3600 mm): Pad 2 [GND] of C18 on F.Cu
+    @(156.8225 mm, 126.3300 mm): Pad 2 [GND] of C_INA1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.8225 mm, 126.3300 mm): Pad 2 [GND] of C_INA1 on F.Cu
+    @(156.8225 mm, 128.3000 mm): Pad 2 [GND] of C_MCP1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.8225 mm, 128.3000 mm): Pad 2 [GND] of C_MCP1 on F.Cu
+    @(156.8225 mm, 130.2700 mm): Pad 2 [GND] of C_TC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.8225 mm, 128.3000 mm): Pad 2 [GND] of C_MCP1 on F.Cu
+    @(163.9725 mm, 128.6100 mm): Pad 2 [GND] of C_555 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.4625 mm, 88.7800 mm): Pad 1 [GND] of C_3V3_2 on F.Cu
+    @(157.8125 mm, 81.8500 mm): Pad 1 [GND] of SW_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.8125 mm, 71.5500 mm): Pad 2 [GND] of C_RST1 on F.Cu
+    @(157.8125 mm, 67.7500 mm): Pad 1 [GND] of C_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.8125 mm, 78.6000 mm): Pad 2 [GND] of SW_BOOT1 on F.Cu
+    @(157.8125 mm, 81.8500 mm): Pad 1 [GND] of SW_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.8125 mm, 78.6000 mm): Pad 2 [GND] of SW_BOOT1 on F.Cu
+    @(164.1125 mm, 78.6000 mm): Pad 2 [GND] of SW_BOOT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.0675 mm, 120.5900 mm): Pad 2 [GND] of R21 on F.Cu
+    @(155.9875 mm, 122.5950 mm): Pad 1 [GND] of NT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.0675 mm, 120.5900 mm): Pad 2 [GND] of R21 on F.Cu
+    @(165.5325 mm, 121.2000 mm): PTH pad 1 [GND] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.3625 mm, 91.7900 mm): Pad 2 [GND] of C_LDO_IN1 on F.Cu
+    @(157.4625 mm, 88.7800 mm): Pad 1 [GND] of C_3V3_2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.3625 mm, 94.8000 mm): Pad 2 [GND] of C_LDO_OUT1 on F.Cu
+    @(159.3625 mm, 91.7900 mm): Pad 2 [GND] of C_LDO_IN1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.3625 mm, 94.8000 mm): Pad 2 [GND] of C_LDO_OUT1 on F.Cu
+    @(162.2925 mm, 97.2900 mm): Pad 1 [GND] of C_3V3_1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.3625 mm, 94.8000 mm): Pad 2 [GND] of C_LDO_OUT1 on F.Cu
+    @(157.6250 mm, 98.7050 mm): Pad 2 [GND] of U14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.2925 mm, 99.2600 mm): Pad 1 [GND] of C_BOOT_MCU1 on F.Cu
+    @(162.2925 mm, 97.2900 mm): Pad 1 [GND] of C_3V3_1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.2525 mm, 99.2600 mm): Pad 2 [GND] of C_BOOT_MCU1 on F.Cu
+    @(162.2925 mm, 99.2600 mm): Pad 1 [GND] of C_BOOT_MCU1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.9725 mm, 130.5800 mm): Pad 2 [GND] of C_AND1 on F.Cu
+    @(163.9725 mm, 128.6100 mm): Pad 2 [GND] of C_555 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.9725 mm, 132.5500 mm): Pad 2 [GND] of C_CV1 on F.Cu
+    @(163.9725 mm, 130.5800 mm): Pad 2 [GND] of C_AND1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.9725 mm, 132.5500 mm): Pad 2 [GND] of C_CV1 on F.Cu
+    @(166.4400 mm, 133.0150 mm): Pad 7 [GND] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.9725 mm, 134.5200 mm): Pad 2 [GND] of C_DEBOUNCE1 on F.Cu
+    @(163.9725 mm, 132.5500 mm): Pad 2 [GND] of C_CV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.9725 mm, 134.5200 mm): Pad 2 [GND] of C_DEBOUNCE1 on F.Cu
+    @(163.9725 mm, 136.4900 mm): Pad 2 [GND] of C_INV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.9725 mm, 138.4600 mm): Pad 2 [GND] of C_SCHMITT1 on F.Cu
+    @(163.9725 mm, 136.4900 mm): Pad 2 [GND] of C_INV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.1125 mm, 67.7500 mm): Pad 1 [GND] of C_RST1 on F.Cu
+    @(164.1125 mm, 71.5500 mm): Pad 2 [GND] of C_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.1125 mm, 71.5500 mm): Pad 2 [GND] of C_RST1 on F.Cu
+    @(157.8125 mm, 71.5500 mm): Pad 2 [GND] of C_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.1125 mm, 78.6000 mm): Pad 2 [GND] of SW_BOOT1 on F.Cu
+    @(164.1125 mm, 81.8500 mm): Pad 1 [GND] of SW_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.1125 mm, 78.6000 mm): Pad 2 [GND] of SW_BOOT1 on F.Cu
+    @(170.1375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.1125 mm, 78.6000 mm): Pad 2 [GND] of SW_BOOT1 on F.Cu
+    @(164.1125 mm, 71.5500 mm): Pad 2 [GND] of C_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.4400 mm, 133.0150 mm): Pad 7 [GND] of U7 on F.Cu
+    @(166.6775 mm, 135.7900 mm): Pad 1 [GND] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.6775 mm, 135.7900 mm): Pad 1 [GND] of U6 on F.Cu
+    @(175.3425 mm, 135.3300 mm): Pad 2 [GND] of R11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.6875 mm, 112.2500 mm): Pad 2 [GND] of J4 on F.Cu
+    @(165.5325 mm, 121.2000 mm): PTH pad 1 [GND] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.1375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+    @(170.2375 mm, 76.3500 mm): Pad 20 [GND] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.5325 mm, 121.2000 mm): PTH pad 3 [GND] of J5
+    @(165.5325 mm, 121.2000 mm): PTH pad 1 [GND] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.3375 mm, 77.2000 mm): PTH pad 21 [GND] of U4
+    @(173.1875 mm, 78.3000 mm): Pad 13 [GND] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.3375 mm, 79.4000 mm): PTH pad 21 [GND] of U4
+    @(172.0375 mm, 83.1000 mm): Pad 2 [GND] of C16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.1075 mm, 101.8800 mm): Pad 2 [GND] of D2 on F.Cu
+    @(179.8400 mm, 102.4550 mm): Pad 4 [GND] of D3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.1075 mm, 101.8800 mm): Pad 2 [GND] of D2 on F.Cu
+    @(166.6875 mm, 112.2500 mm): Pad 2 [GND] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.3425 mm, 135.3300 mm): Pad 2 [GND] of R11 on F.Cu
+    @(176.8525 mm, 129.1300 mm): Pad 2 [GND] of C15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.6325 mm, 76.6800 mm): Pad 1 [GND] of C_BIN1 on F.Cu
+    @(173.1875 mm, 78.3000 mm): Pad 13 [GND] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.5325 mm, 79.6900 mm): Pad 2 [GND] of C_BOUT1 on F.Cu
+    @(177.5325 mm, 82.7000 mm): Pad 2 [GND] of C_BOUT2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.5325 mm, 79.6900 mm): Pad 2 [GND] of C_BOUT1 on F.Cu
+    @(175.6325 mm, 76.6800 mm): Pad 1 [GND] of C_BIN1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.7250 mm, 136.8550 mm): Pad 3 [GND] of U12 on F.Cu
+    @(175.3425 mm, 135.3300 mm): Pad 2 [GND] of R11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.7250 mm, 136.8550 mm): Pad 3 [GND] of U12 on F.Cu
+    @(177.7250 mm, 140.5000 mm): Pad 3 [GND] of U13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.1625 mm, 90.7200 mm): Pad A12 [GND] of J2 on F.Cu
+    @(180.7725 mm, 86.1200 mm): Pad 2 [GND] of R_SAFE1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.1625 mm, 90.7200 mm): Pad A12 [GND] of J2 on F.Cu
+    @(171.7625 mm, 90.7200 mm): Pad A1 [GND] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.1625 mm, 90.7200 mm): Pad A12 [GND] of J2 on F.Cu
+    @(183.2425 mm, 100.1000 mm): Pad 2 [GND] of R17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.1575 mm, 67.5800 mm): Pad 1 [GND] of U11 on F.Cu
+    @(179.1575 mm, 71.3900 mm): Pad 4 [GND] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.1575 mm, 71.3900 mm): Pad 4 [GND] of U11 on F.Cu
+    @(184.1075 mm, 71.3900 mm): Pad 5 [GND] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.8400 mm, 102.4550 mm): Pad 4 [GND] of D3 on F.Cu
+    @(179.3025 mm, 105.2300 mm): Pad 2 [GND] of C_USB1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.7725 mm, 82.1400 mm): Pad 2 [GND] of R_DIV2 on F.Cu
+    @(180.7725 mm, 84.1300 mm): Pad 2 [GND] of R_ILIM1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.7725 mm, 82.1400 mm): Pad 2 [GND] of R_DIV2 on F.Cu
+    @(177.5325 mm, 82.7000 mm): Pad 2 [GND] of C_BOUT2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.7725 mm, 84.1300 mm): Pad 2 [GND] of R_ILIM1 on F.Cu
+    @(180.7725 mm, 86.1200 mm): Pad 2 [GND] of R_SAFE1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.3325 mm, 118.8100 mm): Pad 2 [GND] of C_DISP1 on F.Cu
+    @(170.5325 mm, 121.2000 mm): PTH pad 3 [GND] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.4925 mm, 104.7100 mm): Pad 2 [GND] of C_USB2 on F.Cu
+    @(183.2425 mm, 102.0900 mm): Pad 2 [GND] of R18 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.4925 mm, 104.7100 mm): Pad 2 [GND] of C_USB2 on F.Cu
+    @(179.3025 mm, 105.2300 mm): Pad 2 [GND] of C_USB1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.6725 mm, 80.1000 mm): Pad 1 [GND] of C_COMP1 on F.Cu
+    @(180.7725 mm, 82.1400 mm): Pad 2 [GND] of R_DIV2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.6725 mm, 80.1000 mm): Pad 1 [GND] of C_COMP1 on F.Cu
+    @(183.6325 mm, 76.1600 mm): Pad 2 [GND] of C17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(183.2425 mm, 102.0900 mm): Pad 2 [GND] of R18 on F.Cu
+    @(183.2425 mm, 100.1000 mm): Pad 2 [GND] of R17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(183.6325 mm, 76.1600 mm): Pad 2 [GND] of C17 on F.Cu
+    @(184.1075 mm, 71.3900 mm): Pad 5 [GND] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(183.6325 mm, 82.0700 mm): Pad 2 [GND] of C_VCC1 on F.Cu
+    @(182.6725 mm, 80.1000 mm): Pad 1 [GND] of C_COMP1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(183.6325 mm, 84.0400 mm): Pad 2 [GND] of C_VSENSE1 on F.Cu
+    @(183.6325 mm, 82.0700 mm): Pad 2 [GND] of C_VCC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.1075 mm, 71.3900 mm): Pad 5 [GND] of U11 on F.Cu
+    @(184.1075 mm, 68.8500 mm): Pad 7 [GND] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.6275 mm, 137.0600 mm): Pad 7 [/safety_logic/WDT_DISCH] of U6 on F.Cu
+    @(171.6275 mm, 138.3300 mm): Pad 6 [/safety_logic/WDT_DISCH] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.6275 mm, 137.0600 mm): Pad 7 [/safety_logic/WDT_DISCH] of U6 on F.Cu
+    @(176.5075 mm, 131.8900 mm): Pad 2 [/safety_logic/WDT_DISCH] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(176.5075 mm, 131.8900 mm): Pad 2 [/safety_logic/WDT_DISCH] of R3 on F.Cu
+    @(174.9525 mm, 129.1300 mm): Pad 1 [/safety_logic/WDT_DISCH] of C15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0375 mm, 127.4050 mm): Pad 6 [/boost_converter/V_BOOST] of U10 on F.Cu
+    @(144.7325 mm, 129.7600 mm): Pad 1 [/boost_converter/V_BOOST] of R_GS_Q3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.7325 mm, 129.7600 mm): Pad 1 [/boost_converter/V_BOOST] of R_GS_Q3 on F.Cu
+    @(155.8625 mm, 130.2700 mm): Pad 1 [/boost_converter/V_BOOST] of C_TC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.4925 mm, 118.1950 mm): Pad 1 [/boost_converter/V_BOOST] of Q3 on F.Cu
+    @(169.0875 mm, 83.1000 mm): Pad 1 [/boost_converter/V_BOOST] of C16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.4925 mm, 119.4650 mm): Pad 2 [/boost_converter/V_BOOST] of Q3 on F.Cu
+    @(148.4925 mm, 118.1950 mm): Pad 1 [/boost_converter/V_BOOST] of Q3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.4925 mm, 120.7350 mm): Pad 3 [/boost_converter/V_BOOST] of Q3 on F.Cu
+    @(148.4925 mm, 119.4650 mm): Pad 2 [/boost_converter/V_BOOST] of Q3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.4925 mm, 120.7350 mm): Pad 3 [/boost_converter/V_BOOST] of Q3 on F.Cu
+    @(142.0375 mm, 127.4050 mm): Pad 6 [/boost_converter/V_BOOST] of U10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.0875 mm, 83.1000 mm): Pad 1 [/boost_converter/V_BOOST] of C16 on F.Cu
+    @(175.6325 mm, 82.7000 mm): Pad 1 [/boost_converter/V_BOOST] of C_BOUT2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.2375 mm, 76.3500 mm): Pad 16 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(173.1875 mm, 77.3000 mm): Pad 15 [/boost_converter/V_BOOST] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(173.1875 mm, 77.3000 mm): Pad 15 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(173.1875 mm, 77.8000 mm): Pad 14 [/boost_converter/V_BOOST] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(173.1875 mm, 77.8000 mm): Pad 14 [/boost_converter/V_BOOST] of U4 on F.Cu
+    @(175.6325 mm, 79.6900 mm): Pad 1 [/boost_converter/V_BOOST] of C_BOUT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.4475 mm, 70.6500 mm): Pad 2 [/boost_converter/V_BOOST] of L2 on F.Cu
+    @(172.2375 mm, 76.3500 mm): Pad 16 [/boost_converter/V_BOOST] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.6325 mm, 79.6900 mm): Pad 1 [/boost_converter/V_BOOST] of C_BOUT1 on F.Cu
+    @(180.7725 mm, 80.1500 mm): Pad 2 [/boost_converter/V_BOOST] of R_DIV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.6325 mm, 82.7000 mm): Pad 1 [/boost_converter/V_BOOST] of C_BOUT2 on F.Cu
+    @(175.6325 mm, 79.6900 mm): Pad 1 [/boost_converter/V_BOOST] of C_BOUT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.7725 mm, 80.1500 mm): Pad 2 [/boost_converter/V_BOOST] of R_DIV1 on F.Cu
+    @(179.7525 mm, 76.1700 mm): Pad 1 [/boost_converter/V_BOOST] of R4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.2375 mm, 80.2500 mm): Pad 10 [/boost_converter/BOOST_SS] of U4 on F.Cu
+    @(182.6725 mm, 76.1600 mm): Pad 1 [/boost_converter/BOOST_SS] of C17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.7525 mm, 117.8200 mm): Pad 2 [/coil_driver/OC_THRESH+] of R6 on F.Cu
+    @(137.0875 mm, 120.8200 mm): Pad 3 [/coil_driver/OC_THRESH+] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.8625 mm, 124.3600 mm): Pad 1 [/coil_driver/OC_THRESH+] of C18 on F.Cu
+    @(156.4175 mm, 118.0800 mm): Pad 1 [/coil_driver/OC_THRESH+] of R9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.4175 mm, 118.0800 mm): Pad 1 [/coil_driver/OC_THRESH+] of R9 on F.Cu
+    @(145.7525 mm, 117.8200 mm): Pad 2 [/coil_driver/OC_THRESH+] of R6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.9125 mm, 90.4100 mm): Pad 2 [/UI/VCC_3V3] of U5 on F.Cu
+    @(122.9125 mm, 91.6800 mm): Pad 3 [/UI/VCC_3V3] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.9125 mm, 91.6800 mm): Pad 3 [/UI/VCC_3V3] of U5 on F.Cu
+    @(142.0375 mm, 118.2800 mm): Pad 8 [/UI/VCC_3V3] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0375 mm, 120.8200 mm): Pad 6 [/UI/VCC_3V3] of U9 on F.Cu
+    @(142.0375 mm, 118.2800 mm): Pad 8 [/UI/VCC_3V3] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.7325 mm, 119.8100 mm): Pad 1 [/UI/VCC_3V3] of R7 on F.Cu
+    @(142.0375 mm, 120.8200 mm): Pad 6 [/UI/VCC_3V3] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.7325 mm, 123.7900 mm): Pad 1 [/UI/VCC_3V3] of R10 on F.Cu
+    @(144.7325 mm, 119.8100 mm): Pad 1 [/UI/VCC_3V3] of R7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.7325 mm, 123.7900 mm): Pad 1 [/UI/VCC_3V3] of R10 on F.Cu
+    @(152.5150 mm, 131.4400 mm): Pad 8 [/UI/VCC_3V3] of U15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.8625 mm, 128.3000 mm): Pad 1 [/UI/VCC_3V3] of C_MCP1 on F.Cu
+    @(155.8625 mm, 126.3300 mm): Pad 1 [/UI/VCC_3V3] of C_INA1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.8625 mm, 128.3000 mm): Pad 1 [/UI/VCC_3V3] of C_MCP1 on F.Cu
+    @(152.5150 mm, 131.4400 mm): Pad 8 [/UI/VCC_3V3] of U15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.8625 mm, 128.3000 mm): Pad 1 [/UI/VCC_3V3] of C_MCP1 on F.Cu
+    @(158.6200 mm, 132.7050 mm): Pad 5 [/UI/VCC_3V3] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.4625 mm, 94.8000 mm): Pad 1 [/UI/VCC_3V3] of C_LDO_OUT1 on F.Cu
+    @(159.9000 mm, 97.7550 mm): Pad 5 [/UI/VCC_3V3] of U14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.3625 mm, 88.7800 mm): Pad 2 [/UI/VCC_3V3] of C_3V3_2 on F.Cu
+    @(157.8125 mm, 85.6500 mm): Pad 2 [/UI/VCC_3V3] of SW_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.9000 mm, 97.7550 mm): Pad 5 [/UI/VCC_3V3] of U14 on F.Cu
+    @(163.2525 mm, 97.2900 mm): Pad 2 [/UI/VCC_3V3] of C_3V3_1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.5825 mm, 88.2700 mm): Pad 1 [/UI/VCC_3V3] of R13 on F.Cu
+    @(159.3625 mm, 88.7800 mm): Pad 2 [/UI/VCC_3V3] of C_3V3_2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.5825 mm, 88.2700 mm): Pad 1 [/UI/VCC_3V3] of R13 on F.Cu
+    @(164.1125 mm, 85.6500 mm): Pad 2 [/UI/VCC_3V3] of SW_RST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.5825 mm, 90.2600 mm): Pad 1 [/UI/VCC_3V3] of R14 on F.Cu
+    @(161.5825 mm, 88.2700 mm): Pad 1 [/UI/VCC_3V3] of R13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.5825 mm, 90.2600 mm): Pad 1 [/UI/VCC_3V3] of R14 on F.Cu
+    @(161.5825 mm, 92.2500 mm): Pad 1 [/UI/VCC_3V3] of R15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.5825 mm, 94.2400 mm): Pad 1 [/UI/VCC_3V3] of R16 on F.Cu
+    @(161.5825 mm, 92.2500 mm): Pad 1 [/UI/VCC_3V3] of R15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0125 mm, 128.6100 mm): Pad 1 [/UI/VCC_3V3] of C_555 on F.Cu
+    @(163.0125 mm, 130.5800 mm): Pad 1 [/UI/VCC_3V3] of C_AND1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0125 mm, 128.6100 mm): Pad 1 [/UI/VCC_3V3] of C_555 on F.Cu
+    @(172.1650 mm, 129.1150 mm): Pad 14 [/UI/VCC_3V3] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0125 mm, 130.5800 mm): Pad 1 [/UI/VCC_3V3] of C_AND1 on F.Cu
+    @(158.6200 mm, 132.7050 mm): Pad 5 [/UI/VCC_3V3] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0125 mm, 136.4900 mm): Pad 1 [/UI/VCC_3V3] of C_INV1 on F.Cu
+    @(158.6200 mm, 132.7050 mm): Pad 5 [/UI/VCC_3V3] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0125 mm, 138.4600 mm): Pad 1 [/UI/VCC_3V3] of C_SCHMITT1 on F.Cu
+    @(163.0125 mm, 136.4900 mm): Pad 1 [/UI/VCC_3V3] of C_INV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.2525 mm, 97.2900 mm): Pad 2 [/UI/VCC_3V3] of C_3V3_1 on F.Cu
+    @(161.5825 mm, 94.2400 mm): Pad 1 [/UI/VCC_3V3] of R16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.2525 mm, 97.2900 mm): Pad 2 [/UI/VCC_3V3] of C_3V3_1 on F.Cu
+    @(165.4375 mm, 112.2500 mm): Pad 1 [/UI/VCC_3V3] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(165.4375 mm, 112.2500 mm): Pad 1 [/UI/VCC_3V3] of J4 on F.Cu
+    @(180.3725 mm, 118.8100 mm): Pad 1 [/UI/VCC_3V3] of C_DISP1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.1650 mm, 129.1150 mm): Pad 14 [/UI/VCC_3V3] of U7 on F.Cu
+    @(174.8575 mm, 131.8900 mm): Pad 1 [/UI/VCC_3V3] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.1650 mm, 129.1150 mm): Pad 14 [/UI/VCC_3V3] of U7 on F.Cu
+    @(180.3725 mm, 118.8100 mm): Pad 1 [/UI/VCC_3V3] of C_DISP1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.3225 mm, 137.3200 mm): Pad 1 [/UI/VCC_3V3] of R12 on F.Cu
+    @(174.3225 mm, 139.3100 mm): Pad 1 [/UI/VCC_3V3] of R_ALERT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.3225 mm, 137.3200 mm): Pad 1 [/UI/VCC_3V3] of R12 on F.Cu
+    @(174.8575 mm, 131.8900 mm): Pad 1 [/UI/VCC_3V3] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.3225 mm, 139.3100 mm): Pad 1 [/UI/VCC_3V3] of R_ALERT1 on F.Cu
+    @(179.5000 mm, 139.2000 mm): Pad 5 [/UI/VCC_3V3] of U13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.5000 mm, 135.5550 mm): Pad 5 [/UI/VCC_3V3] of U12 on F.Cu
+    @(179.5000 mm, 139.2000 mm): Pad 5 [/UI/VCC_3V3] of U13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.2925 mm, 126.6700 mm): Pad 1 [/battery_management/VBAT_PROT] of R1 on F.Cu
+    @(108.4125 mm, 125.3000 mm): Pad 1 [/battery_management/VBAT_PROT] of C_BAT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.5700 mm, 129.5800 mm): Pad 14 [/battery_management/VBAT_PROT] of U1 on F.Cu
+    @(132.0575 mm, 122.0050 mm): Pad 5 [/battery_management/VBAT_PROT] of Q_REV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.5700 mm, 129.5800 mm): Pad 14 [/battery_management/VBAT_PROT] of U1 on F.Cu
+    @(116.2925 mm, 126.6700 mm): Pad 1 [/battery_management/VBAT_PROT] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.5700 mm, 130.0800 mm): Pad 13 [/battery_management/VBAT_PROT] of U1 on F.Cu
+    @(129.5700 mm, 129.5800 mm): Pad 14 [/battery_management/VBAT_PROT] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.2925 mm, 143.3400 mm): Pad 1 [/battery_management/VBAT_PROT] of C_FG1 on F.Cu
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.2240 mm, 140.1160 mm): Pad B1 [/battery_management/VBAT_PROT] of U3 on F.Cu
+    @(129.5700 mm, 130.0800 mm): Pad 13 [/battery_management/VBAT_PROT] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.2725 mm, 121.2500 mm): Pad 2 [/battery_management/VSYS] of L1 on F.Cu
+    @(129.5700 mm, 128.5800 mm): Pad 16 [/battery_management/VSYS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.2725 mm, 121.2500 mm): Pad 2 [/battery_management/VSYS] of L1 on F.Cu
+    @(110.3125 mm, 131.3200 mm): Pad 2 [/battery_management/VSYS] of C_SYS1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.5700 mm, 128.5800 mm): Pad 16 [/battery_management/VSYS] of U1 on F.Cu
+    @(157.6250 mm, 99.6550 mm): Pad 3 [/battery_management/VSYS] of U14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.5700 mm, 129.0800 mm): Pad 15 [/battery_management/VSYS] of U1 on F.Cu
+    @(129.5700 mm, 128.5800 mm): Pad 16 [/battery_management/VSYS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.6250 mm, 97.7550 mm): Pad 1 [/battery_management/VSYS] of U14 on F.Cu
+    @(157.6250 mm, 99.6550 mm): Pad 3 [/battery_management/VSYS] of U14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.6250 mm, 97.7550 mm): Pad 1 [/battery_management/VSYS] of U14 on F.Cu
+    @(157.4625 mm, 91.7900 mm): Pad 1 [/battery_management/VSYS] of C_LDO_IN1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2875 mm, 78.3000 mm): Pad 3 [/battery_management/VSYS] of U4 on F.Cu
+    @(157.4625 mm, 91.7900 mm): Pad 1 [/battery_management/VSYS] of C_LDO_IN1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.7375 mm, 80.2500 mm): Pad 9 [/battery_management/VSYS] of U4 on F.Cu
+    @(169.2875 mm, 78.3000 mm): Pad 3 [/battery_management/VSYS] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.5325 mm, 76.6800 mm): Pad 2 [/battery_management/VSYS] of C_BIN1 on F.Cu
+    @(171.7375 mm, 80.2500 mm): Pad 9 [/battery_management/VSYS] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.5325 mm, 76.6800 mm): Pad 2 [/battery_management/VSYS] of C_BIN1 on F.Cu
+    @(184.1075 mm, 67.5800 mm): Pad 8 [/battery_management/VSYS] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2875 mm, 78.8000 mm): Pad 4 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(169.2875 mm, 79.3000 mm): Pad 5 [/boost_converter/BOOST_SW] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2875 mm, 79.3000 mm): Pad 5 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(170.2375 mm, 80.2500 mm): Pad 6 [/boost_converter/BOOST_SW] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.2375 mm, 80.2500 mm): Pad 6 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(170.7375 mm, 80.2500 mm): Pad 7 [/boost_converter/BOOST_SW] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.6275 mm, 70.6500 mm): Pad 1 [/boost_converter/BOOST_SW] of L2 on F.Cu
+    @(169.2875 mm, 78.8000 mm): Pad 4 [/boost_converter/BOOST_SW] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.7375 mm, 80.2500 mm): Pad 7 [/boost_converter/BOOST_SW] of U4 on F.Cu
+    @(183.6325 mm, 78.1300 mm): Pad 2 [/boost_converter/BOOST_SW] of C_BOOT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.2375 mm, 80.2500 mm): Pad 8 [/boost_converter/BOOST_BOOT] of U4 on F.Cu
+    @(182.6725 mm, 78.1300 mm): Pad 1 [/boost_converter/BOOST_BOOT] of C_BOOT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.8725 mm, 121.2500 mm): Pad 1 [/battery_management/CHG_SW] of L1 on F.Cu
+    @(113.5025 mm, 124.7800 mm): Pad 2 [/battery_management/CHG_SW] of C_BTST1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.3575 mm, 126.8675 mm): Pad 20 [/battery_management/CHG_SW] of U1 on F.Cu
+    @(128.8575 mm, 126.8675 mm): Pad 19 [/battery_management/CHG_SW] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.3575 mm, 126.8675 mm): Pad 20 [/battery_management/CHG_SW] of U1 on F.Cu
+    @(116.8725 mm, 121.2500 mm): Pad 1 [/battery_management/CHG_SW] of L1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.5425 mm, 124.7800 mm): Pad 1 [/battery_management/CHG_BTST] of C_BTST1 on F.Cu
+    @(127.8575 mm, 126.8675 mm): Pad 21 [/battery_management/CHG_BTST] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.2375 mm, 76.3500 mm): Pad 18 [/boost_converter/BOOST_COMP] of U4 on F.Cu
+    @(179.7525 mm, 78.1600 mm): Pad 1 [/boost_converter/BOOST_COMP] of R_COMP1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.7725 mm, 78.1600 mm): Pad 2 [/boost_converter/BOOST_COMP] of R_COMP1 on F.Cu
+    @(179.7525 mm, 78.1600 mm): Pad 1 [/boost_converter/BOOST_COMP] of R_COMP1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(183.6325 mm, 80.1000 mm): Pad 2 [/boost_converter/BOOST_COMP] of C_COMP1 on F.Cu
+    @(180.7725 mm, 78.1600 mm): Pad 2 [/boost_converter/BOOST_COMP] of R_COMP1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0125 mm, 132.5500 mm): Pad 1 [/safety_logic/WDT_CONT] of C_CV1 on F.Cu
+    @(171.6275 mm, 139.6000 mm): Pad 5 [/safety_logic/WDT_CONT] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0125 mm, 134.5200 mm): Pad 1 [/safety_logic/BTN_FILT] of C_DEBOUNCE1 on F.Cu
+    @(175.3425 mm, 141.3000 mm): Pad 2 [/safety_logic/BTN_FILT] of R_DEBOUNCE1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.3425 mm, 141.3000 mm): Pad 2 [/safety_logic/BTN_FILT] of R_DEBOUNCE1 on F.Cu
+    @(177.7250 mm, 139.8500 mm): Pad 2 [/safety_logic/BTN_FILT] of U13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.3425 mm, 118.5350 mm): Pad 1 [/battery_management/GND_SENSE] of Q2 on F.Cu
+    @(108.3425 mm, 119.8050 mm): Pad 2 [/battery_management/GND_SENSE] of Q2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.3425 mm, 119.8050 mm): Pad 2 [/battery_management/GND_SENSE] of Q2 on F.Cu
+    @(108.3425 mm, 121.0750 mm): Pad 3 [/battery_management/GND_SENSE] of Q2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.3425 mm, 121.0750 mm): Pad 3 [/battery_management/GND_SENSE] of Q2 on F.Cu
+    @(116.7400 mm, 134.1000 mm): Pad 1 [/battery_management/GND_SENSE] of R_SENSE_FG1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.7400 mm, 134.1000 mm): Pad 1 [/battery_management/GND_SENSE] of R_SENSE_FG1 on F.Cu
+    @(138.0240 mm, 140.5160 mm): Pad C3 [/battery_management/GND_SENSE] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.2525 mm, 143.3400 mm): Pad 2 [/battery_management/GND_SENSE] of C_FG1 on F.Cu
+    @(138.0240 mm, 140.5160 mm): Pad C3 [/battery_management/GND_SENSE] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3125 mm, 128.3100 mm): Pad 2 [/battery_management/VBUS] of C_IN1 on F.Cu
+    @(125.6450 mm, 127.5800 mm): Pad 1 [/battery_management/VBUS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.8075 mm, 101.8800 mm): Pad 1 [/battery_management/VBUS] of D2 on F.Cu
+    @(177.4025 mm, 105.2300 mm): Pad 1 [/battery_management/VBUS] of C_USB1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.8075 mm, 101.8800 mm): Pad 1 [/battery_management/VBUS] of D2 on F.Cu
+    @(125.6450 mm, 127.5800 mm): Pad 1 [/battery_management/VBUS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.5625 mm, 90.7200 mm): Pad A4 [/battery_management/VBUS] of J2 on F.Cu
+    @(169.8075 mm, 101.8800 mm): Pad 1 [/battery_management/VBUS] of D2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.3625 mm, 90.7200 mm): Pad A9 [/battery_management/VBUS] of J2 on F.Cu
+    @(172.5625 mm, 90.7200 mm): Pad A4 [/battery_management/VBUS] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.5325 mm, 104.7100 mm): Pad 1 [/battery_management/VBUS] of C_USB2 on F.Cu
+    @(177.4025 mm, 105.2300 mm): Pad 1 [/battery_management/VBUS] of C_USB1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.5425 mm, 126.7500 mm): Pad 1 [/battery_management/PMID] of C_PMID1 on F.Cu
+    @(126.8575 mm, 126.8675 mm): Pad 23 [/battery_management/PMID] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.5425 mm, 128.7200 mm): Pad 1 [/battery_management/PROT_BAT] of C_PROT1 on F.Cu
+    @(110.2425 mm, 134.3500 mm): Pad 5 [/battery_management/PROT_BAT] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.3125 mm, 126.6700 mm): Pad 2 [/battery_management/PROT_BAT] of R1 on F.Cu
+    @(112.5425 mm, 128.7200 mm): Pad 1 [/battery_management/PROT_BAT] of C_PROT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.2025 mm, 126.6700 mm): Pad 1 [/battery_management/CHG_REGN] of R19 on F.Cu
+    @(122.1125 mm, 128.6600 mm): Pad 1 [/battery_management/CHG_REGN] of R_QON1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.2025 mm, 126.6700 mm): Pad 1 [/battery_management/CHG_REGN] of R19 on F.Cu
+    @(112.5425 mm, 130.6900 mm): Pad 1 [/battery_management/CHG_REGN] of C_REGN1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.1125 mm, 128.6600 mm): Pad 1 [/battery_management/CHG_REGN] of R_QON1 on F.Cu
+    @(127.3575 mm, 126.8675 mm): Pad 22 [/battery_management/CHG_REGN] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2875 mm, 77.3000 mm): Pad 1 [/boost_converter/BOOST_VCC] of U4 on F.Cu
+    @(182.6725 mm, 82.0700 mm): Pad 1 [/boost_converter/BOOST_VCC] of C_VCC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.7525 mm, 80.1500 mm): Pad 1 [/boost_converter/V_SENSE] of R_DIV1 on F.Cu
+    @(179.7525 mm, 82.1400 mm): Pad 1 [/boost_converter/V_SENSE] of R_DIV2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.7525 mm, 82.1400 mm): Pad 1 [/boost_converter/V_SENSE] of R_DIV2 on F.Cu
+    @(182.6725 mm, 84.0400 mm): Pad 1 [/boost_converter/V_SENSE] of C_VSENSE1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.7525 mm, 82.1400 mm): Pad 1 [/boost_converter/V_SENSE] of R_DIV2 on F.Cu
+    @(122.9125 mm, 92.9500 mm): Pad 4 [/boost_converter/V_SENSE] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.7125 mm, 90.7200 mm): Pad A6 [/mcu/USB_D+] of J2 on F.Cu
+    @(122.9125 mm, 104.3800 mm): Pad 13 [/mcu/USB_D+] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.7125 mm, 90.7200 mm): Pad B6 [/mcu/USB_D+] of J2 on F.Cu
+    @(174.7125 mm, 90.7200 mm): Pad A6 [/mcu/USB_D+] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.5650 mm, 102.4550 mm): Pad 3 [/mcu/USB_D+] of D3 on F.Cu
+    @(175.7125 mm, 90.7200 mm): Pad B6 [/mcu/USB_D+] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.2125 mm, 90.7200 mm): Pad B7 [/mcu/USB_D-] of J2 on F.Cu
+    @(122.9125 mm, 105.6500 mm): Pad 14 [/mcu/USB_D-] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.2125 mm, 90.7200 mm): Pad A7 [/mcu/USB_D-] of J2 on F.Cu
+    @(174.2125 mm, 90.7200 mm): Pad B7 [/mcu/USB_D-] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.8400 mm, 100.5550 mm): Pad 5 [/mcu/USB_D-] of D3 on F.Cu
+    @(175.2125 mm, 90.7200 mm): Pad A7 [/mcu/USB_D-] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.4075 mm, 132.2700 mm): Pad 1 [/coil_driver/COIL+] of D_FLY1 on F.Cu
+    @(158.6200 mm, 134.6050 mm): Pad 4 [/coil_driver/COIL+] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.8125 mm, 113.6000 mm): PTH pad 1 [/coil_driver/COIL+] of J6
+    @(137.4075 mm, 132.2700 mm): Pad 1 [/coil_driver/COIL+] of D_FLY1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.4800 mm, 112.8300 mm): Pad 1 [/coil_driver/COIL+] of R_SHUNT1 on F.Cu
+    @(138.8125 mm, 113.6000 mm): PTH pad 1 [/coil_driver/COIL+] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.4075 mm, 132.2700 mm): Pad 2 [/coil_driver/COIL-] of D_FLY1 on F.Cu
+    @(151.8525 mm, 126.7300 mm): Pad 5 [/coil_driver/COIL-] of Q4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.8525 mm, 126.7300 mm): Pad 5 [/coil_driver/COIL-] of Q4 on F.Cu
+    @(156.4175 mm, 120.5900 mm): Pad 1 [/coil_driver/COIL-] of R21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.4175 mm, 120.5900 mm): Pad 1 [/coil_driver/COIL-] of R21 on F.Cu
+    @(147.6125 mm, 113.6000 mm): PTH pad 2 [/coil_driver/COIL-] of J6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(176.7125 mm, 90.7200 mm): Pad B5 [/usb_power/USB_CC2] of J2 on F.Cu
+    @(182.2225 mm, 102.0900 mm): Pad 1 [/usb_power/USB_CC2] of R18 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.8525 mm, 91.2950 mm): Pad S1 [unconnected-(J2-SHIELD-PadS1)] of J2 on F.Cu
+    @(169.8525 mm, 95.2250 mm): Pad S1 [unconnected-(J2-SHIELD-PadS1)] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.0725 mm, 91.2950 mm): Pad S1 [unconnected-(J2-SHIELD-PadS1)] of J2 on F.Cu
+    @(169.8525 mm, 91.2950 mm): Pad S1 [unconnected-(J2-SHIELD-PadS1)] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.0725 mm, 95.2250 mm): Pad S1 [unconnected-(J2-SHIELD-PadS1)] of J2 on F.Cu
+    @(180.0725 mm, 91.2950 mm): Pad S1 [unconnected-(J2-SHIELD-PadS1)] of J2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(173.7125 mm, 90.7200 mm): Pad A5 [/usb_power/USB_CC1] of J2 on F.Cu
+    @(182.2225 mm, 100.1000 mm): Pad 1 [/usb_power/USB_CC1] of R17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.5925 mm, 118.1950 mm): Pad 1 [/battery_management/VBAT_RAW] of Q_REV1 on F.Cu
+    @(118.8225 mm, 113.6000 mm): PTH pad 1 [/battery_management/VBAT_RAW] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.5925 mm, 119.4650 mm): Pad 2 [/battery_management/VBAT_RAW] of Q_REV1 on F.Cu
+    @(126.5925 mm, 118.1950 mm): Pad 1 [/battery_management/VBAT_RAW] of Q_REV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.5925 mm, 120.7350 mm): Pad 3 [/battery_management/VBAT_RAW] of Q_REV1 on F.Cu
+    @(126.5925 mm, 119.4650 mm): Pad 2 [/battery_management/VBAT_RAW] of Q_REV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.6650 mm, 134.1000 mm): Pad 2 [/battery_management/BAT_NEG] of R_SENSE_FG1 on F.Cu
+    @(123.1325 mm, 130.6500 mm): Pad 2 [/battery_management/BAT_NEG] of R_REV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.6650 mm, 134.1000 mm): Pad 2 [/battery_management/BAT_NEG] of R_SENSE_FG1 on F.Cu
+    @(110.2425 mm, 134.8500 mm): Pad 4 [/battery_management/BAT_NEG] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.1325 mm, 130.6500 mm): Pad 2 [/battery_management/BAT_NEG] of R_REV1 on F.Cu
+    @(127.6225 mm, 113.6000 mm): PTH pad 2 [/battery_management/BAT_NEG] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.0240 mm, 139.7160 mm): Pad A3 [/battery_management/BAT_NEG] of U3 on F.Cu
+    @(122.6650 mm, 134.1000 mm): Pad 2 [/battery_management/BAT_NEG] of R_SENSE_FG1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.4125 mm, 90.4100 mm): Pad 39 [/UI/TP_RST] of U5 on F.Cu
+    @(177.9375 mm, 112.2500 mm): Pad 11 [/UI/TP_RST] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.7575 mm, 106.9000 mm): Pad 19 [/UI/LCD_MOSI] of U5 on F.Cu
+    @(167.9375 mm, 112.2500 mm): Pad 3 [/UI/LCD_MOSI] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.4125 mm, 91.6800 mm): Pad 38 [/UI/TP_IRQ] of U5 on F.Cu
+    @(179.1875 mm, 112.2500 mm): Pad 12 [/UI/TP_IRQ] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.8375 mm, 106.9000 mm): Pad 23 [/UI/LCD_BL] of U5 on F.Cu
+    @(174.1875 mm, 112.2500 mm): Pad 8 [/UI/LCD_BL] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.6025 mm, 90.2600 mm): Pad 2 [/UI/I2C0_SCL] of R14 on F.Cu
+    @(127.2175 mm, 106.9000 mm): Pad 17 [/UI/I2C0_SCL] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(176.6875 mm, 112.2500 mm): Pad 10 [/UI/I2C0_SCL] of J4 on F.Cu
+    @(162.6025 mm, 90.2600 mm): Pad 2 [/UI/I2C0_SCL] of R14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.5675 mm, 106.9000 mm): Pad 22 [/UI/LCD_RST] of U5 on F.Cu
+    @(172.9375 mm, 112.2500 mm): Pad 7 [/UI/LCD_RST] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.0275 mm, 106.9000 mm): Pad 20 [/UI/LCD_CS] of U5 on F.Cu
+    @(170.4375 mm, 112.2500 mm): Pad 5 [/UI/LCD_CS] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.4875 mm, 106.9000 mm): Pad 18 [/UI/LCD_CLK] of U5 on F.Cu
+    @(169.1875 mm, 112.2500 mm): Pad 4 [/UI/LCD_CLK] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.6025 mm, 88.2700 mm): Pad 2 [/UI/I2C0_SDA] of R13 on F.Cu
+    @(122.9125 mm, 103.1100 mm): Pad 12 [/UI/I2C0_SDA] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.4375 mm, 112.2500 mm): Pad 9 [/UI/I2C0_SDA] of J4 on F.Cu
+    @(162.6025 mm, 88.2700 mm): Pad 2 [/UI/I2C0_SDA] of R13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.2975 mm, 106.9000 mm): Pad 21 [/UI/LCD_DC] of U5 on F.Cu
+    @(171.6875 mm, 112.2500 mm): Pad 6 [/UI/LCD_DC] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(173.0325 mm, 121.2000 mm): PTH pad 4 [/UI/FIRE_LED] of J5
+    @(178.4725 mm, 118.8200 mm): Pad 2 [/UI/FIRE_LED] of R22 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.0325 mm, 121.2000 mm): PTH pad 2 [/UI/FIRE_BTN] of J5
+    @(122.9125 mm, 95.4900 mm): Pad 6 [/UI/FIRE_BTN] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.3225 mm, 141.3000 mm): Pad 1 [/UI/FIRE_BTN] of R_DEBOUNCE1 on F.Cu
+    @(168.0325 mm, 121.2000 mm): PTH pad 2 [/UI/FIRE_BTN] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.2025 mm, 128.6600 mm): Pad 1 [/battery_management/NTC_TS] of R20 on F.Cu
+    @(126.4025 mm, 134.0900 mm): PTH pad 1 [/battery_management/NTC_TS] of J7
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.2225 mm, 126.6700 mm): Pad 2 [/battery_management/NTC_TS] of R19 on F.Cu
+    @(119.2025 mm, 128.6600 mm): Pad 1 [/battery_management/NTC_TS] of R20 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.4025 mm, 134.0900 mm): PTH pad 1 [/battery_management/NTC_TS] of J7
+    @(128.3575 mm, 130.7925 mm): Pad 11 [/battery_management/NTC_TS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.3450 mm, 133.6550 mm): Pad 2 [/coil_driver/AGND] of U8 on F.Cu
+    @(156.9875 mm, 122.5950 mm): Pad 2 [/coil_driver/AGND] of NT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.9875 mm, 122.5950 mm): Pad 2 [/coil_driver/AGND] of NT1 on F.Cu
+    @(137.0875 mm, 122.0900 mm): Pad 4 [/coil_driver/AGND] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.3425 mm, 115.6350 mm): Pad 4 [/battery_management/Q1_GATE] of Q1 on F.Cu
+    @(120.2225 mm, 130.6500 mm): Pad 2 [/battery_management/Q1_GATE] of R_G1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.2925 mm, 113.7300 mm): Pad 5 [/battery_management/PROT_MID] of Q1 on F.Cu
+    @(112.2925 mm, 120.4400 mm): Pad 5 [/battery_management/PROT_MID] of Q2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.3425 mm, 122.3450 mm): Pad 4 [/battery_management/Q2_GATE] of Q2 on F.Cu
+    @(123.1325 mm, 126.6700 mm): Pad 2 [/battery_management/Q2_GATE] of R_G2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.9575 mm, 122.0050 mm): Pad 5 [/coil_driver/OPAMP_IN+] of Q3 on F.Cu
+    @(156.3450 mm, 134.6050 mm): Pad 3 [/coil_driver/OPAMP_IN+] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.4050 mm, 112.8300 mm): Pad 2 [/coil_driver/OPAMP_IN+] of R_SHUNT1 on F.Cu
+    @(153.9575 mm, 118.1950 mm): Pad 5 [/coil_driver/OPAMP_IN+] of Q3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.7525 mm, 125.7800 mm): Pad 2 [/coil_driver/Q4_GATE] of R_G3 on F.Cu
+    @(145.7525 mm, 127.7700 mm): Pad 2 [/coil_driver/Q4_GATE] of R_G3_HS1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.7525 mm, 127.7700 mm): Pad 2 [/coil_driver/Q4_GATE] of R_G3_HS1 on F.Cu
+    @(145.7525 mm, 129.7600 mm): Pad 2 [/coil_driver/Q4_GATE] of R_GS_Q3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.7525 mm, 127.7700 mm): Pad 2 [/coil_driver/Q4_GATE] of R_G3_HS1 on F.Cu
+    @(147.9025 mm, 128.6350 mm): Pad 4 [/coil_driver/Q4_GATE] of Q4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.4925 mm, 122.0050 mm): Pad 4 [/coil_driver/Q4_GATE] of Q3 on F.Cu
+    @(145.7525 mm, 125.7800 mm): Pad 2 [/coil_driver/Q4_GATE] of R_G3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.1125 mm, 130.6500 mm): Pad 1 [/battery_management/QREV_GATE] of R_REV1 on F.Cu
+    @(126.5925 mm, 122.0050 mm): Pad 4 [/battery_management/QREV_GATE] of Q_REV1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.2425 mm, 133.8500 mm): Pad 6 [/battery_management/PROT_V-] of U2 on F.Cu
+    @(116.2925 mm, 128.6600 mm): Pad 1 [/battery_management/PROT_V-] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.7375 mm, 76.3500 mm): Pad 17 [/boost_converter/DPOT_WIPER] of U4 on F.Cu
+    @(180.7725 mm, 76.1700 mm): Pad 2 [/boost_converter/DPOT_WIPER] of R4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.7525 mm, 86.1200 mm): Pad 1 [/boost_converter/DPOT_WIPER] of R_SAFE1 on F.Cu
+    @(180.7725 mm, 76.1700 mm): Pad 2 [/boost_converter/DPOT_WIPER] of R4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.7725 mm, 76.1700 mm): Pad 2 [/boost_converter/DPOT_WIPER] of R4 on F.Cu
+    @(184.1075 mm, 70.1200 mm): Pad 6 [/boost_converter/DPOT_WIPER] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.2925 mm, 130.6500 mm): Pad 1 [/battery_management/CHG_ILIM] of R5 on F.Cu
+    @(127.8575 mm, 130.7925 mm): Pad 10 [/battery_management/CHG_ILIM] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.7325 mm, 117.8200 mm): Pad 1 [/coil_driver/I_SENSE] of R6 on F.Cu
+    @(124.6775 mm, 106.9000 mm): Pad 15 [/coil_driver/I_SENSE] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.3450 mm, 132.7050 mm): Pad 1 [/coil_driver/I_SENSE] of U8 on F.Cu
+    @(144.7325 mm, 117.8200 mm): Pad 1 [/coil_driver/I_SENSE] of R6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.0875 mm, 119.5500 mm): Pad 2 [/coil_driver/COMP_IN-] of U9 on F.Cu
+    @(144.7325 mm, 121.8000 mm): Pad 1 [/coil_driver/COMP_IN-] of R8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.7325 mm, 121.8000 mm): Pad 1 [/coil_driver/COMP_IN-] of R8 on F.Cu
+    @(145.7525 mm, 119.8100 mm): Pad 2 [/coil_driver/COMP_IN-] of R7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.9125 mm, 96.7600 mm): Pad 7 [/coil_driver/OC_FAULT] of U5 on F.Cu
+    @(137.0875 mm, 118.2800 mm): Pad 1 [/coil_driver/OC_FAULT] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.0875 mm, 118.2800 mm): Pad 1 [/coil_driver/OC_FAULT] of U9 on F.Cu
+    @(145.7525 mm, 123.7900 mm): Pad 2 [/coil_driver/OC_FAULT] of R10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.7525 mm, 123.7900 mm): Pad 2 [/coil_driver/OC_FAULT] of R10 on F.Cu
+    @(158.0675 mm, 118.0800 mm): Pad 2 [/coil_driver/OC_FAULT] of R9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.4400 mm, 131.7150 mm): Pad 5 [/coil_driver/OC_FAULT] of U7 on F.Cu
+    @(158.0675 mm, 118.0800 mm): Pad 2 [/coil_driver/OC_FAULT] of R9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.1650 mm, 131.7150 mm): Pad 10 [/mcu/FIRE_EN] of U7 on F.Cu
+    @(122.9125 mm, 99.3000 mm): Pad 9 [/mcu/FIRE_EN] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.3225 mm, 135.3300 mm): Pad 1 [/mcu/FIRE_EN] of R11 on F.Cu
+    @(172.1650 mm, 131.7150 mm): Pad 10 [/mcu/FIRE_EN] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.6275 mm, 135.7900 mm): Pad 8 [/safety_logic/WDT_RST] of U6 on F.Cu
+    @(166.6775 mm, 139.6000 mm): Pad 4 [/safety_logic/WDT_RST] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.3425 mm, 137.3200 mm): Pad 2 [/safety_logic/WDT_RST] of R12 on F.Cu
+    @(171.6275 mm, 135.7900 mm): Pad 8 [/safety_logic/WDT_RST] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.9125 mm, 100.5700 mm): Pad 10 [/battery_management/I2C1_SDA] of U5 on F.Cu
+    @(125.6450 mm, 130.0800 mm): Pad 6 [/battery_management/I2C1_SDA] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.6450 mm, 130.0800 mm): Pad 6 [/battery_management/I2C1_SDA] of U1 on F.Cu
+    @(137.2240 mm, 140.5160 mm): Pad C1 [/battery_management/I2C1_SDA] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.2240 mm, 140.5160 mm): Pad C1 [/battery_management/I2C1_SDA] of U3 on F.Cu
+    @(148.2900 mm, 131.4400 mm): Pad 1 [/battery_management/I2C1_SDA] of U15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.6025 mm, 92.2500 mm): Pad 2 [/battery_management/I2C1_SDA] of R15 on F.Cu
+    @(122.9125 mm, 100.5700 mm): Pad 10 [/battery_management/I2C1_SDA] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.1575 mm, 70.1200 mm): Pad 3 [/battery_management/I2C1_SDA] of U11 on F.Cu
+    @(162.6025 mm, 92.2500 mm): Pad 2 [/battery_management/I2C1_SDA] of R15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.9125 mm, 101.8400 mm): Pad 11 [/battery_management/I2C1_SCL] of U5 on F.Cu
+    @(125.6450 mm, 129.5800 mm): Pad 5 [/battery_management/I2C1_SCL] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.6450 mm, 129.5800 mm): Pad 5 [/battery_management/I2C1_SCL] of U1 on F.Cu
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.6240 mm, 139.7160 mm): Pad A2 [/battery_management/I2C1_SCL] of U3 on F.Cu
+    @(148.2900 mm, 132.0900 mm): Pad 2 [/battery_management/I2C1_SCL] of U15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.6025 mm, 94.2400 mm): Pad 2 [/battery_management/I2C1_SCL] of R16 on F.Cu
+    @(122.9125 mm, 101.8400 mm): Pad 11 [/battery_management/I2C1_SCL] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.1575 mm, 68.8500 mm): Pad 2 [/battery_management/I2C1_SCL] of U11 on F.Cu
+    @(162.6025 mm, 94.2400 mm): Pad 2 [/battery_management/I2C1_SCL] of R16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.1075 mm, 106.9000 mm): Pad 24 [/UI/LED_STATUS] of U5 on F.Cu
+    @(177.4525 mm, 118.8200 mm): Pad 1 [/UI/LED_STATUS] of R22 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.1650 mm, 129.7650 mm): Pad 13 [/coil_driver/T_ALERT] of U7 on F.Cu
+    @(148.2900 mm, 132.7400 mm): Pad 3 [/coil_driver/T_ALERT] of U15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.3425 mm, 139.3100 mm): Pad 2 [/coil_driver/T_ALERT] of R_ALERT1 on F.Cu
+    @(172.1650 mm, 129.7650 mm): Pad 13 [/coil_driver/T_ALERT] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.9825 mm, 134.3500 mm): Pad 2 [/battery_management/PROT_COUT] of U2 on F.Cu
+    @(119.2025 mm, 130.6500 mm): Pad 1 [/battery_management/PROT_COUT] of R_G1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.9825 mm, 134.8500 mm): Pad 3 [/battery_management/PROT_DOUT] of U2 on F.Cu
+    @(122.1125 mm, 126.6700 mm): Pad 1 [/battery_management/PROT_DOUT] of R_G2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.9125 mm, 94.2200 mm): Pad 5 [/coil_driver/COIL_PWM] of U5 on F.Cu
+    @(144.7325 mm, 125.7800 mm): Pad 1 [/coil_driver/COIL_PWM] of R_G3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0375 mm, 126.1350 mm): Pad 7 [/coil_driver/DRIVER_OUT] of U10 on F.Cu
+    @(144.7325 mm, 127.7700 mm): Pad 1 [/coil_driver/DRIVER_OUT] of R_G3_HS1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.7375 mm, 76.3500 mm): Pad 19 [/boost_converter/BOOST_ILIM] of U4 on F.Cu
+    @(179.7525 mm, 84.1300 mm): Pad 1 [/boost_converter/BOOST_ILIM] of R_ILIM1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.1325 mm, 128.6600 mm): Pad 2 [/battery_management/CHG_QON] of R_QON1 on F.Cu
+    @(128.8575 mm, 130.7925 mm): Pad 12 [/battery_management/CHG_QON] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.8125 mm, 74.8000 mm): Pad 1 [/mcu/ESP_BOOT] of SW_BOOT1 on F.Cu
+    @(140.4125 mm, 105.6500 mm): Pad 27 [/mcu/ESP_BOOT] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.1125 mm, 74.8000 mm): Pad 1 [/mcu/ESP_BOOT] of SW_BOOT1 on F.Cu
+    @(157.8125 mm, 74.8000 mm): Pad 1 [/mcu/ESP_BOOT] of SW_BOOT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.3575 mm, 130.7925 mm): Pad 9 [/battery_management/CHG_CE] of U1 on F.Cu
+    @(140.4125 mm, 99.3000 mm): Pad 32 [/battery_management/CHG_CE] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.3575 mm, 130.7925 mm): Pad 7 [/battery_management/CHG_INT] of U1 on F.Cu
+    @(140.4125 mm, 100.5700 mm): Pad 31 [/battery_management/CHG_INT] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.9125 mm, 98.0300 mm): Pad 8 [/battery_management/CHG_PG] of U5 on F.Cu
+    @(125.6450 mm, 128.5800 mm): Pad 3 [/battery_management/CHG_PG] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.6450 mm, 129.0800 mm): Pad 4 [/battery_management/CHG_STAT] of U1 on F.Cu
+    @(138.6475 mm, 106.9000 mm): Pad 26 [/battery_management/CHG_STAT] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.8575 mm, 130.7925 mm): Pad 8 [/battery_management/CHG_OTG] of U1 on F.Cu
+    @(140.4125 mm, 98.0300 mm): Pad 33 [/battery_management/CHG_OTG] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.6240 mm, 140.1160 mm): Pad B2 [/fuel_gauge/FG_ALRT] of U3 on F.Cu
+    @(140.4125 mm, 96.7600 mm): Pad 34 [/fuel_gauge/FG_ALRT] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.4125 mm, 95.4900 mm): Pad 35 [/boost_converter/BOOST_EN] of U5 on F.Cu
+    @(169.2875 mm, 77.8000 mm): Pad 2 [/boost_converter/BOOST_EN] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.3775 mm, 106.9000 mm): Pad 25 [/mcu/WDT_PING] of U5 on F.Cu
+    @(166.6775 mm, 137.0600 mm): Pad 2 [/mcu/WDT_PING] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.6775 mm, 138.3300 mm): Pad 3 [/safety_logic/WDT_OUT] of U6 on F.Cu
+    @(177.7250 mm, 136.2050 mm): Pad 2 [/safety_logic/WDT_OUT] of U12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.4400 mm, 132.3650 mm): Pad 6 [/safety_logic/LOGIC_2Y] of U7 on F.Cu
+    @(172.1650 mm, 132.3650 mm): Pad 9 [/safety_logic/LOGIC_2Y] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.4400 mm, 129.7650 mm): Pad 2 [/safety_logic/AND_1B] of U7 on F.Cu
+    @(179.5000 mm, 140.5000 mm): Pad 4 [/safety_logic/AND_1B] of U13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.4400 mm, 129.1150 mm): Pad 1 [/safety_logic/WDT_OK] of U7 on F.Cu
+    @(179.5000 mm, 136.8550 mm): Pad 4 [/safety_logic/WDT_OK] of U12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.4400 mm, 130.4150 mm): Pad 3 [/safety_logic/AND_1Y] of U7 on F.Cu
+    @(166.4400 mm, 131.0650 mm): Pad 4 [/safety_logic/AND_1Y] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.0875 mm, 126.1350 mm): Pad 2 [/coil_driver/SAFETY_GATE] of U10 on F.Cu
+    @(172.1650 mm, 131.0650 mm): Pad 11 [/coil_driver/SAFETY_GATE] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.1650 mm, 130.4150 mm): Pad 12 [/safety_logic/AND_3Y] of U7 on F.Cu
+    @(172.1650 mm, 133.0150 mm): Pad 8 [/safety_logic/AND_3Y] of U7 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **
